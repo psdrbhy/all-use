@@ -12,6 +12,7 @@
     "collect:prices": "node --use-env-proxy scripts/collect-chatgpt-prices.mjs",
     "collect:web": "node scripts/collect-web-prices.mjs",
     "refresh:web": "npm run collect:web && npm run build:regional",
+    "refresh:all": "npm run collect:prices && npm run refresh:web",
     "collect:regional": "node scripts/collect-regional-prices.mjs",
     "build:regional": "node scripts/build-regional-prices.mjs",
     "test:collector": "node --test tests/price-collector.test.mjs tests/regional-collector.test.mjs",

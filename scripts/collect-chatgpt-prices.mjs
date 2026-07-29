@@ -246,13 +246,18 @@ function runFileName(isoDate) {
   return `${isoDate.replaceAll(":", "-")}.json`;
 }
 
-async function collectCandidate(runStartedAt) {
+async function collectCandidate(runStartedAt, previous) {
   const exchangeRates = await collectEcbRates(registry.exchangeRateSource);
   const officialReferences = await Promise.all(registry.officialReferences.map(collectOfficialReference));
   const webCurrencyReference = officialReferences.find(
     (reference) => reference.kind === "openai_multi_currency",
   );
-  const supportedWebCurrencies = webCurrencyReference?.evidence?.supportedCurrencies ?? [];
+  const collectedWebCurrencies = webCurrencyReference?.evidence?.supportedCurrencies ?? [];
+  const previousWebCurrencies = previous?.webChannel?.supportedCurrencies ?? [];
+  const supportedWebCurrencies = collectedWebCurrencies.length
+    ? collectedWebCurrencies
+    : previousWebCurrencies;
+  const reusedWebCurrencyReference = !collectedWebCurrencies.length && previousWebCurrencies.length > 0;
   const storefrontResults = await mapWithConcurrency(
     registry.storefronts,
     3,
@@ -283,17 +288,29 @@ async function collectCandidate(runStartedAt) {
         "A missing official price produces a failure record, never an estimated value.",
         "USD equivalents are omitted when the official exchange-rate feed lacks a currency.",
         "Candidates that fail coverage, baseline, integrity, or price-change checks are quarantined.",
+        "When the auxiliary web-currency reference is temporarily unreachable, its last accepted scope may be carried forward while newly collected platform prices remain independently verified.",
       ],
     },
     exchangeRates,
     officialReferences,
     webChannel: {
-      status: supportedWebCurrencies.length ? "currency_scope_verified" : "reference_unavailable",
+      status: collectedWebCurrencies.length
+        ? "currency_scope_verified"
+        : reusedWebCurrencyReference
+          ? "currency_scope_carried_forward"
+          : "reference_unavailable",
       supportedCurrencies: supportedWebCurrencies,
-      referenceUrl: webCurrencyReference?.finalUrl ?? webCurrencyReference?.url ?? null,
-      referenceCollectedAt: webCurrencyReference?.collectedAt ?? null,
+      referenceUrl: collectedWebCurrencies.length
+        ? webCurrencyReference?.finalUrl ?? webCurrencyReference?.url ?? null
+        : previous?.webChannel?.referenceUrl ?? webCurrencyReference?.url ?? null,
+      referenceCollectedAt: collectedWebCurrencies.length
+        ? webCurrencyReference?.collectedAt ?? null
+        : previous?.webChannel?.referenceCollectedAt ?? null,
+      referenceFresh: collectedWebCurrencies.length > 0,
       publishedRegionalPrices: 0,
-      note: "Official currency coverage is verified; regional checkout prices remain unpublished until location-specific official checkout evidence is collected.",
+      note: reusedWebCurrencyReference
+        ? "The official currency reference was temporarily unreachable, so the last accepted currency scope is retained; regional checkout prices remain separate."
+        : "Official currency coverage is verified; regional checkout prices remain unpublished until location-specific official checkout evidence is collected.",
     },
     androidChannel: {
       status: androidRangeResults.some((result) => result.status === "range_collected")
@@ -323,7 +340,7 @@ async function main() {
   const previous = await readJsonIfPresent(outputPath);
 
   try {
-    const candidate = await collectCandidate(runStartedAt);
+    const candidate = await collectCandidate(runStartedAt, previous);
     const quality = assessCandidateDataset(candidate, previous, registry.reliability);
     const runArtifact = {
       ...candidate,
