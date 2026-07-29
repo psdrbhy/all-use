@@ -1,0 +1,57 @@
+{
+  "storefront": "FR",
+  "channel": "web",
+  "status": "exact_prices_detected",
+  "capturedAt": "2026-07-17T11:51:41.286Z",
+  "endpoint": "https://chatgpt.com/backend-api/checkout_pricing_config/configs/FR",
+  "currency": "EUR",
+  "sourceSha256": "6ccd760137c1bb51ed14cdecd6578ca6b0165118ac4b4ba01fe028ecdd81038d",
+  "records": [
+    {
+      "channel": "web",
+      "storefront": "FR",
+      "plan": "plus",
+      "currency": "EUR",
+      "localPrice": 23,
+      "localPriceDisplay": "€23",
+      "sourceUrl": "https://chatgpt.com/backend-api/checkout_pricing_config/configs/FR",
+      "sourceSha256": "6ccd760137c1bb51ed14cdecd6578ca6b0165118ac4b4ba01fe028ecdd81038d",
+      "capturedAt": "2026-07-17T11:51:41.286Z",
+      "observedRegion": "FR",
+      "captureType": "checkout_pricing_config",
+      "evidenceScope": "regional_checkout",
+      "evidence": {
+        "planText": "ChatGPT Plus",
+        "priceText": "€23",
+        "regionSignal": "official checkout config country_code=FR",
+        "endpointCountry": "FR",
+        "priceInterval": "month",
+        "taxBehavior": "inclusive",
+        "collectorVersion": "chatgpt-checkout-config-v1"
+      }
+    },
+    {
+      "channel": "web",
+      "storefront": "FR",
+      "plan": "pro",
+      "currency": "EUR",
+      "localPrice": 229,
+      "localPriceDisplay": "€229",
+      "sourceUrl": "https://chatgpt.com/backend-api/checkout_pricing_config/configs/FR",
+      "sourceSha256": "6ccd760137c1bb51ed14cdecd6578ca6b0165118ac4b4ba01fe028ecdd81038d",
+      "capturedAt": "2026-07-17T11:51:41.286Z",
+      "observedRegion": "FR",
+      "captureType": "checkout_pricing_config",
+      "evidenceScope": "regional_checkout",
+      "evidence": {
+        "planText": "ChatGPT Pro 20x",
+        "priceText": "€229",
+        "regionSignal": "official checkout config country_code=FR",
+        "endpointCountry": "FR",
+        "priceInterval": "month",
+        "taxBehavior": "inclusive",
+        "collectorVersion": "chatgpt-checkout-config-v1"
+      }
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "storefront": "BR",
+  "channel": "web",
+  "status": "exact_prices_detected",
+  "capturedAt": "2026-07-26T15:24:30.312Z",
+  "endpoint": "https://chatgpt.com/backend-api/checkout_pricing_config/configs/BR",
+  "currency": "BRL",
+  "sourceSha256": "9da2030221c1c36b1cbb45f3561bb01ceb06012ccb5df8cdf7bc1cda10174caf",
+  "records": [
+    {
+      "channel": "web",
+      "storefront": "BR",
+      "plan": "plus",
+      "currency": "BRL",
+      "localPrice": 99.9,
+      "localPriceDisplay": "R$99.90",
+      "sourceUrl": "https://chatgpt.com/backend-api/checkout_pricing_config/configs/BR",
+      "sourceSha256": "9da2030221c1c36b1cbb45f3561bb01ceb06012ccb5df8cdf7bc1cda10174caf",
+      "capturedAt": "2026-07-26T15:24:30.312Z",
+      "observedRegion": "BR",
+      "captureType": "checkout_pricing_config",
+      "evidenceScope": "regional_checkout",
+      "evidence": {
+        "planText": "ChatGPT Plus",
+        "priceText": "R$99.90",
+        "regionSignal": "official checkout config country_code=BR",
+        "endpointCountry": "BR",
+        "priceInterval": "month",
+        "taxBehavior": "exclusive",
+        "collectorVersion": "chatgpt-checkout-config-v1"
+      }
+    },
+    {
+      "channel": "web",
+      "storefront": "BR",
+      "plan": "pro",
+      "currency": "BRL",
+      "localPrice": 999.9,
+      "localPriceDisplay": "R$999.90",
+      "sourceUrl": "https://chatgpt.com/backend-api/checkout_pricing_config/configs/BR",
+      "sourceSha256": "9da2030221c1c36b1cbb45f3561bb01ceb06012ccb5df8cdf7bc1cda10174caf",
+      "capturedAt": "2026-07-26T15:24:30.312Z",
+      "observedRegion": "BR",
+      "captureType": "checkout_pricing_config",
+      "evidenceScope": "regional_checkout",
+      "evidence": {
+        "planText": "ChatGPT Pro 20x",
+        "priceText": "R$999.90",
+        "regionSignal": "official checkout config country_code=BR",
+        "endpointCountry": "BR",
+        "priceInterval": "month",
+        "taxBehavior": "exclusive",
+        "collectorVersion": "chatgpt-checkout-config-v1"
+      }
+    }
+  ]
+}

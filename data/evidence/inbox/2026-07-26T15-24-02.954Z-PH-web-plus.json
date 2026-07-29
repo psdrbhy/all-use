@@ -1,0 +1,23 @@
+{
+  "channel": "web",
+  "storefront": "PH",
+  "plan": "plus",
+  "currency": "PHP",
+  "localPrice": 1100,
+  "localPriceDisplay": "₱1,100",
+  "sourceUrl": "https://chatgpt.com/backend-api/checkout_pricing_config/configs/PH",
+  "sourceSha256": "e2afda11cee12259fc7e913c3db1ced19cf0e64e5e417b8477c1b14bd24c10fb",
+  "capturedAt": "2026-07-26T15:24:02.954Z",
+  "observedRegion": "PH",
+  "captureType": "checkout_pricing_config",
+  "evidenceScope": "regional_checkout",
+  "evidence": {
+    "planText": "ChatGPT Plus",
+    "priceText": "₱1,100",
+    "regionSignal": "official checkout config country_code=PH",
+    "endpointCountry": "PH",
+    "priceInterval": "month",
+    "taxBehavior": "inclusive",
+    "collectorVersion": "chatgpt-checkout-config-v1"
+  }
+}

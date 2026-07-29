@@ -1,0 +1,23 @@
+{
+  "channel": "web",
+  "storefront": "IN",
+  "plan": "plus",
+  "currency": "INR",
+  "localPrice": 1999,
+  "localPriceDisplay": "₹1,999",
+  "sourceUrl": "https://chatgpt.com/backend-api/checkout_pricing_config/configs/IN",
+  "sourceSha256": "aab9392ab030021454d8375bf00c19cd28c9ea1b0c41742afe8796c2e2ae376f",
+  "capturedAt": "2026-07-23T02:30:42.151Z",
+  "observedRegion": "IN",
+  "captureType": "checkout_pricing_config",
+  "evidenceScope": "regional_checkout",
+  "evidence": {
+    "planText": "ChatGPT Plus",
+    "priceText": "₹1,999",
+    "regionSignal": "official checkout config country_code=IN",
+    "endpointCountry": "IN",
+    "priceInterval": "month",
+    "taxBehavior": "inclusive",
+    "collectorVersion": "chatgpt-checkout-config-v1"
+  }
+}

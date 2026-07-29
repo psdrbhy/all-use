@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-07-17T10:45:00.227Z",
+  "runStartedAt": "2026-07-17T10:45:00.217Z",
+  "policy": {
+    "maximumPriceChangeRatio": 0.2,
+    "maximumCheckoutAgeHours": 336,
+    "notes": [
+      "Regional prices are published only from official checkout or billing-dialog evidence.",
+      "Official help articles may provide USD reference prices but never count as regional checkout evidence.",
+      "Cookies, account identifiers, payment details, and complete checkout HTML must not be stored."
+    ]
+  },
+  "summary": {
+    "records": 2,
+    "webUsdReferences": 2,
+    "webRegionalCheckoutRecords": 0,
+    "webRegionalStorefronts": 0,
+    "androidRegionalCheckoutRecords": 0,
+    "androidRegionalStorefronts": 0,
+    "rejectedEvidenceFiles": 0
+  },
+  "quality": {
+    "accepted": true,
+    "checks": [
+      {
+        "id": "official_usd_reference",
+        "passed": true,
+        "detail": "2 current official USD plan references"
+      },
+      {
+        "id": "regional_price_change_guard",
+        "passed": true,
+        "detail": "no changes above 20%"
+      }
+    ],
+    "anomalies": []
+  },
+  "records": [
+    {
+      "id": "web:us:plus",
+      "product": "ChatGPT",
+      "channel": "web",
+      "storefront": "US",
+      "storefrontNameZh": "美国",
+      "plan": "plus",
+      "currency": "USD",
+      "localPrice": 20,
+      "localPriceDisplay": "$20.00",
+      "sourceUrl": "https://help.openai.com/en/articles/6950777-what-is-chatgpt-plus",
+      "sourceHost": "help.openai.com",
+      "sourceSha256": "68261000d5f3f5017b102d3fc4d6ca20c777722f15093c7c2c2036bde6136c12",
+      "capturedAt": "2026-07-17T10:44:43.932Z",
+      "observedRegion": "US",
+      "captureType": "official_help_article",
+      "evidenceScope": "usd_reference",
+      "verificationStatus": "official_usd_reference",
+      "evidence": {
+        "planText": "ChatGPT Plus",
+        "priceText": "$20/month",
+        "regionSignal": "official USD subscription reference",
+        "collectorVersion": "official-reference-import-v1"
+      },
+      "evidenceSha256": "7c7f2fb4ef1c6430039b4103b1f7a55f7a62840f3e200c6a90f8110f5d74995d",
+      "usdEquivalent": 20,
+      "usdRateDate": "2026-07-16"
+    },
+    {
+      "id": "web:us:pro",
+      "product": "ChatGPT",
+      "channel": "web",
+      "storefront": "US",
+      "storefrontNameZh": "美国",
+      "plan": "pro",
+      "currency": "USD",
+      "localPrice": 200,
+      "localPriceDisplay": "$200.00",
+      "sourceUrl": "https://help.openai.com/en/articles/9793128-what-is-chatgpt-pro",
+      "sourceHost": "help.openai.com",
+      "sourceSha256": "b3c3fc3d1b1b883ebf9aa9882af535f5772e3aa4a4f0a00045d65e5c7413c230",
+      "capturedAt": "2026-07-17T10:44:43.933Z",
+      "observedRegion": "US",
+      "captureType": "official_help_article",
+      "evidenceScope": "usd_reference",
+      "verificationStatus": "official_usd_reference",
+      "evidence": {
+        "planText": "ChatGPT Pro 20x",
+        "priceText": "$200/month",
+        "regionSignal": "official USD subscription reference",
+        "collectorVersion": "official-reference-import-v1"
+      },
+      "evidenceSha256": "f21c30cbbf8ed7e539ca1c4770eabb7726bdd079062b3084add63f229cf5cbec",
+      "usdEquivalent": 200,
+      "usdRateDate": "2026-07-16"
+    }
+  ],
+  "failures": []
+}

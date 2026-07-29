@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "runStartedAt": "2026-07-20T08:02:32.756Z",
+  "failedAt": "2026-07-20T08:02:35.031Z",
+  "promotion": {
+    "status": "failed",
+    "previousAcceptedAt": "2026-07-17T10:44:53.035Z"
+  },
+  "error": "TypeError: fetch failed\n    at node:internal/deps/undici/undici:16416:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async fetchWithRetry (file:///Users/didi/Documents/all-use/scripts/collect-chatgpt-prices.mjs:29:24)\n    at async collectEcbRates (file:///Users/didi/Documents/all-use/scripts/collect-chatgpt-prices.mjs:50:30)\n    at async collectCandidate (file:///Users/didi/Documents/all-use/scripts/collect-chatgpt-prices.mjs:250:25)\n    at async main (file:///Users/didi/Documents/all-use/scripts/collect-chatgpt-prices.mjs:326:23)\n    at async file:///Users/didi/Documents/all-use/scripts/collect-chatgpt-prices.mjs:402:1"
+}

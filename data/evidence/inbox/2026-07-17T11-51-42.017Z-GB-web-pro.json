@@ -1,0 +1,23 @@
+{
+  "channel": "web",
+  "storefront": "GB",
+  "plan": "pro",
+  "currency": "GBP",
+  "localPrice": 200,
+  "localPriceDisplay": "£200",
+  "sourceUrl": "https://chatgpt.com/backend-api/checkout_pricing_config/configs/GB",
+  "sourceSha256": "6b4690023c3b1c53547127d67c07d7c6801a03090f61b7b839cd7e68adf7b9a4",
+  "capturedAt": "2026-07-17T11:51:42.017Z",
+  "observedRegion": "GB",
+  "captureType": "checkout_pricing_config",
+  "evidenceScope": "regional_checkout",
+  "evidence": {
+    "planText": "ChatGPT Pro 20x",
+    "priceText": "£200",
+    "regionSignal": "official checkout config country_code=GB",
+    "endpointCountry": "GB",
+    "priceInterval": "month",
+    "taxBehavior": "inclusive",
+    "collectorVersion": "chatgpt-checkout-config-v1"
+  }
+}

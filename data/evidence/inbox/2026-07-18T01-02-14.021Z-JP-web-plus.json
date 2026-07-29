@@ -1,0 +1,23 @@
+{
+  "channel": "web",
+  "storefront": "JP",
+  "plan": "plus",
+  "currency": "JPY",
+  "localPrice": 3000,
+  "localPriceDisplay": "¥3,000",
+  "sourceUrl": "https://chatgpt.com/backend-api/checkout_pricing_config/configs/JP",
+  "sourceSha256": "212e91fb27fe439a4c8e122ab07d3b66c7feda9433731dd1baf250924afd4d9c",
+  "capturedAt": "2026-07-18T01:02:14.021Z",
+  "observedRegion": "JP",
+  "captureType": "checkout_pricing_config",
+  "evidenceScope": "regional_checkout",
+  "evidence": {
+    "planText": "ChatGPT Plus",
+    "priceText": "¥3,000",
+    "regionSignal": "official checkout config country_code=JP",
+    "endpointCountry": "JP",
+    "priceInterval": "month",
+    "taxBehavior": "inclusive",
+    "collectorVersion": "chatgpt-checkout-config-v1"
+  }
+}

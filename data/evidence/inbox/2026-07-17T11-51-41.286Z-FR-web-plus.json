@@ -1,0 +1,23 @@
+{
+  "channel": "web",
+  "storefront": "FR",
+  "plan": "plus",
+  "currency": "EUR",
+  "localPrice": 23,
+  "localPriceDisplay": "€23",
+  "sourceUrl": "https://chatgpt.com/backend-api/checkout_pricing_config/configs/FR",
+  "sourceSha256": "6ccd760137c1bb51ed14cdecd6578ca6b0165118ac4b4ba01fe028ecdd81038d",
+  "capturedAt": "2026-07-17T11:51:41.286Z",
+  "observedRegion": "FR",
+  "captureType": "checkout_pricing_config",
+  "evidenceScope": "regional_checkout",
+  "evidence": {
+    "planText": "ChatGPT Plus",
+    "priceText": "€23",
+    "regionSignal": "official checkout config country_code=FR",
+    "endpointCountry": "FR",
+    "priceInterval": "month",
+    "taxBehavior": "inclusive",
+    "collectorVersion": "chatgpt-checkout-config-v1"
+  }
+}

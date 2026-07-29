@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "lastRunAt": "2026-07-28T02:19:37.409Z",
+  "lastRunStatus": "accepted",
+  "lastRunArtifact": "data/regional-runs/2026-07-28T02-19-37.337Z.json",
+  "lastAcceptedAt": "2026-07-28T02:19:37.409Z",
+  "servingLastKnownGood": false,
+  "quality": {
+    "accepted": true,
+    "checks": [
+      {
+        "id": "official_usd_reference",
+        "passed": true,
+        "detail": "official US checkout config verified"
+      },
+      {
+        "id": "regional_price_change_guard",
+        "passed": true,
+        "detail": "no changes above 20%"
+      }
+    ],
+    "anomalies": []
+  }
+}

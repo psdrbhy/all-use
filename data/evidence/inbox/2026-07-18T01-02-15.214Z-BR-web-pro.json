@@ -1,0 +1,23 @@
+{
+  "channel": "web",
+  "storefront": "BR",
+  "plan": "pro",
+  "currency": "BRL",
+  "localPrice": 999.9,
+  "localPriceDisplay": "R$999.90",
+  "sourceUrl": "https://chatgpt.com/backend-api/checkout_pricing_config/configs/BR",
+  "sourceSha256": "2032af7170709b73a1b624b7bb0ea3fde4749b7c5346355ebebf1e38a5396a92",
+  "capturedAt": "2026-07-18T01:02:15.214Z",
+  "observedRegion": "BR",
+  "captureType": "checkout_pricing_config",
+  "evidenceScope": "regional_checkout",
+  "evidence": {
+    "planText": "ChatGPT Pro 20x",
+    "priceText": "R$999.90",
+    "regionSignal": "official checkout config country_code=BR",
+    "endpointCountry": "BR",
+    "priceInterval": "month",
+    "taxBehavior": "exclusive",
+    "collectorVersion": "chatgpt-checkout-config-v1"
+  }
+}

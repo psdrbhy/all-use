@@ -1,0 +1,57 @@
+{
+  "storefront": "MX",
+  "channel": "web",
+  "status": "exact_prices_detected",
+  "capturedAt": "2026-07-27T01:02:45.084Z",
+  "endpoint": "https://chatgpt.com/backend-api/checkout_pricing_config/configs/MX",
+  "currency": "MXN",
+  "sourceSha256": "142d62d59c382f936a4ccb66c54935d7301008cc0fd1cc4e4902ea5a835b2d3c",
+  "records": [
+    {
+      "channel": "web",
+      "storefront": "MX",
+      "plan": "plus",
+      "currency": "MXN",
+      "localPrice": 399,
+      "localPriceDisplay": "$399",
+      "sourceUrl": "https://chatgpt.com/backend-api/checkout_pricing_config/configs/MX",
+      "sourceSha256": "142d62d59c382f936a4ccb66c54935d7301008cc0fd1cc4e4902ea5a835b2d3c",
+      "capturedAt": "2026-07-27T01:02:45.084Z",
+      "observedRegion": "MX",
+      "captureType": "checkout_pricing_config",
+      "evidenceScope": "regional_checkout",
+      "evidence": {
+        "planText": "ChatGPT Plus",
+        "priceText": "$399",
+        "regionSignal": "official checkout config country_code=MX",
+        "endpointCountry": "MX",
+        "priceInterval": "month",
+        "taxBehavior": "inclusive",
+        "collectorVersion": "chatgpt-checkout-config-v1"
+      }
+    },
+    {
+      "channel": "web",
+      "storefront": "MX",
+      "plan": "pro",
+      "currency": "MXN",
+      "localPrice": 3999,
+      "localPriceDisplay": "$3,999",
+      "sourceUrl": "https://chatgpt.com/backend-api/checkout_pricing_config/configs/MX",
+      "sourceSha256": "142d62d59c382f936a4ccb66c54935d7301008cc0fd1cc4e4902ea5a835b2d3c",
+      "capturedAt": "2026-07-27T01:02:45.084Z",
+      "observedRegion": "MX",
+      "captureType": "checkout_pricing_config",
+      "evidenceScope": "regional_checkout",
+      "evidence": {
+        "planText": "ChatGPT Pro 20x",
+        "priceText": "$3,999",
+        "regionSignal": "official checkout config country_code=MX",
+        "endpointCountry": "MX",
+        "priceInterval": "month",
+        "taxBehavior": "inclusive",
+        "collectorVersion": "chatgpt-checkout-config-v1"
+      }
+    }
+  ]
+}

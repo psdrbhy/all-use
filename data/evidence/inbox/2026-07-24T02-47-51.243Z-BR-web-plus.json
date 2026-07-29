@@ -1,0 +1,23 @@
+{
+  "channel": "web",
+  "storefront": "BR",
+  "plan": "plus",
+  "currency": "BRL",
+  "localPrice": 99.9,
+  "localPriceDisplay": "R$99.90",
+  "sourceUrl": "https://chatgpt.com/backend-api/checkout_pricing_config/configs/BR",
+  "sourceSha256": "9da2030221c1c36b1cbb45f3561bb01ceb06012ccb5df8cdf7bc1cda10174caf",
+  "capturedAt": "2026-07-24T02:47:51.243Z",
+  "observedRegion": "BR",
+  "captureType": "checkout_pricing_config",
+  "evidenceScope": "regional_checkout",
+  "evidence": {
+    "planText": "ChatGPT Plus",
+    "priceText": "R$99.90",
+    "regionSignal": "official checkout config country_code=BR",
+    "endpointCountry": "BR",
+    "priceInterval": "month",
+    "taxBehavior": "exclusive",
+    "collectorVersion": "chatgpt-checkout-config-v1"
+  }
+}

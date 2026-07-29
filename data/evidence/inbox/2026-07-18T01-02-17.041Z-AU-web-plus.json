@@ -1,0 +1,23 @@
+{
+  "channel": "web",
+  "storefront": "AU",
+  "plan": "plus",
+  "currency": "AUD",
+  "localPrice": 30,
+  "localPriceDisplay": "$30",
+  "sourceUrl": "https://chatgpt.com/backend-api/checkout_pricing_config/configs/AU",
+  "sourceSha256": "ff9078ca98d3e2aeb8b0621d78c3cb2621a01126589e5c0b417b45a666df4ebe",
+  "capturedAt": "2026-07-18T01:02:17.041Z",
+  "observedRegion": "AU",
+  "captureType": "checkout_pricing_config",
+  "evidenceScope": "regional_checkout",
+  "evidence": {
+    "planText": "ChatGPT Plus",
+    "priceText": "$30",
+    "regionSignal": "official checkout config country_code=AU",
+    "endpointCountry": "AU",
+    "priceInterval": "month",
+    "taxBehavior": "inclusive",
+    "collectorVersion": "chatgpt-checkout-config-v1"
+  }
+}

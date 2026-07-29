@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "product": {
+    "name": "ChatGPT",
+    "appleAppId": "6448311069",
+    "googlePlayPackage": "com.openai.chatgpt",
+    "seller": "OpenAI OpCo, LLC"
+  },
+  "officialReferences": [
+    {
+      "kind": "openai_pricing",
+      "url": "https://openai.com/chatgpt/pricing/"
+    },
+    {
+      "kind": "openai_multi_currency",
+      "url": "https://help.openai.com/en/articles/10421635-multi-currency-billing"
+    },
+    {
+      "kind": "chatgpt_plus_plan",
+      "url": "https://help.openai.com/en/articles/6950777-what-is-chatgpt-plus"
+    },
+    {
+      "kind": "chatgpt_pro_plan",
+      "url": "https://help.openai.com/en/articles/9793128-what-is-chatgpt-pro"
+    }
+  ],
+  "exchangeRateSource": {
+    "provider": "European Central Bank",
+    "url": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml",
+    "base": "EUR"
+  },
+  "reliability": {
+    "minimumCompleteCoverage": 0.8,
+    "maximumPriceChangeRatio": 0.2,
+    "minimumSupportedWebCurrencies": 60,
+    "minimumAndroidRangeCoverage": 0.7,
+    "requiredBaselines": [
+      { "channel": "ios", "storefront": "US", "plans": ["plus", "pro"] }
+    ]
+  },
+  "storefronts": [
+    { "code": "PH", "slug": "ph", "nameZh": "菲律宾", "currency": "PHP" },
+    { "code": "PK", "slug": "pk", "nameZh": "巴基斯坦", "currency": "PKR" },
+    { "code": "CA", "slug": "ca", "nameZh": "加拿大", "currency": "CAD" },
+    { "code": "JP", "slug": "jp", "nameZh": "日本", "currency": "JPY" },
+    { "code": "KR", "slug": "kr", "nameZh": "韩国", "currency": "KRW" },
+    { "code": "BR", "slug": "br", "nameZh": "巴西", "currency": "BRL" },
+    { "code": "AR", "slug": "ar", "nameZh": "阿根廷", "currency": "USD" },
+    { "code": "US", "slug": "us", "nameZh": "美国", "currency": "USD" },
+    { "code": "IN", "slug": "in", "nameZh": "印度", "currency": "INR" },
+    { "code": "AU", "slug": "au", "nameZh": "澳大利亚", "currency": "AUD" },
+    { "code": "TR", "slug": "tr", "nameZh": "土耳其", "currency": "TRY" },
+    { "code": "MX", "slug": "mx", "nameZh": "墨西哥", "currency": "MXN" },
+    { "code": "NG", "slug": "ng", "nameZh": "尼日利亚", "currency": "NGN" },
+    { "code": "DE", "slug": "de", "nameZh": "德国", "currency": "EUR" },
+    { "code": "FR", "slug": "fr", "nameZh": "法国", "currency": "EUR" },
+    { "code": "GB", "slug": "gb", "nameZh": "英国", "currency": "GBP" },
+    { "code": "DK", "slug": "dk", "nameZh": "丹麦", "currency": "DKK" }
+  ]
+}

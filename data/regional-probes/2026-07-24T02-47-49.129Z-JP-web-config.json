@@ -1,0 +1,57 @@
+{
+  "storefront": "JP",
+  "channel": "web",
+  "status": "exact_prices_detected",
+  "capturedAt": "2026-07-24T02:47:49.129Z",
+  "endpoint": "https://chatgpt.com/backend-api/checkout_pricing_config/configs/JP",
+  "currency": "JPY",
+  "sourceSha256": "7e38455eaacf7b344eec1ce5585ade54df3dbaff4af9066e3d88631f2e9926a5",
+  "records": [
+    {
+      "channel": "web",
+      "storefront": "JP",
+      "plan": "plus",
+      "currency": "JPY",
+      "localPrice": 3000,
+      "localPriceDisplay": "¥3,000",
+      "sourceUrl": "https://chatgpt.com/backend-api/checkout_pricing_config/configs/JP",
+      "sourceSha256": "7e38455eaacf7b344eec1ce5585ade54df3dbaff4af9066e3d88631f2e9926a5",
+      "capturedAt": "2026-07-24T02:47:49.129Z",
+      "observedRegion": "JP",
+      "captureType": "checkout_pricing_config",
+      "evidenceScope": "regional_checkout",
+      "evidence": {
+        "planText": "ChatGPT Plus",
+        "priceText": "¥3,000",
+        "regionSignal": "official checkout config country_code=JP",
+        "endpointCountry": "JP",
+        "priceInterval": "month",
+        "taxBehavior": "inclusive",
+        "collectorVersion": "chatgpt-checkout-config-v1"
+      }
+    },
+    {
+      "channel": "web",
+      "storefront": "JP",
+      "plan": "pro",
+      "currency": "JPY",
+      "localPrice": 30000,
+      "localPriceDisplay": "¥30,000",
+      "sourceUrl": "https://chatgpt.com/backend-api/checkout_pricing_config/configs/JP",
+      "sourceSha256": "7e38455eaacf7b344eec1ce5585ade54df3dbaff4af9066e3d88631f2e9926a5",
+      "capturedAt": "2026-07-24T02:47:49.129Z",
+      "observedRegion": "JP",
+      "captureType": "checkout_pricing_config",
+      "evidenceScope": "regional_checkout",
+      "evidence": {
+        "planText": "ChatGPT Pro 20x",
+        "priceText": "¥30,000",
+        "regionSignal": "official checkout config country_code=JP",
+        "endpointCountry": "JP",
+        "priceInterval": "month",
+        "taxBehavior": "inclusive",
+        "collectorVersion": "chatgpt-checkout-config-v1"
+      }
+    }
+  ]
+}

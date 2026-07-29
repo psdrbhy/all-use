@@ -1,0 +1,57 @@
+{
+  "storefront": "NG",
+  "channel": "web",
+  "status": "exact_prices_detected",
+  "capturedAt": "2026-07-23T02:30:44.913Z",
+  "endpoint": "https://chatgpt.com/backend-api/checkout_pricing_config/configs/NG",
+  "currency": "NGN",
+  "sourceSha256": "01e50df73343f151a71e368441444f3d7202f9e2378f8894156731fb9cc165f2",
+  "records": [
+    {
+      "channel": "web",
+      "storefront": "NG",
+      "plan": "plus",
+      "currency": "NGN",
+      "localPrice": 31500,
+      "localPriceDisplay": "₦31,500",
+      "sourceUrl": "https://chatgpt.com/backend-api/checkout_pricing_config/configs/NG",
+      "sourceSha256": "01e50df73343f151a71e368441444f3d7202f9e2378f8894156731fb9cc165f2",
+      "capturedAt": "2026-07-23T02:30:44.913Z",
+      "observedRegion": "NG",
+      "captureType": "checkout_pricing_config",
+      "evidenceScope": "regional_checkout",
+      "evidence": {
+        "planText": "ChatGPT Plus",
+        "priceText": "₦31,500",
+        "regionSignal": "official checkout config country_code=NG",
+        "endpointCountry": "NG",
+        "priceInterval": "month",
+        "taxBehavior": "inclusive",
+        "collectorVersion": "chatgpt-checkout-config-v1"
+      }
+    },
+    {
+      "channel": "web",
+      "storefront": "NG",
+      "plan": "pro",
+      "currency": "NGN",
+      "localPrice": 299900,
+      "localPriceDisplay": "₦299,900",
+      "sourceUrl": "https://chatgpt.com/backend-api/checkout_pricing_config/configs/NG",
+      "sourceSha256": "01e50df73343f151a71e368441444f3d7202f9e2378f8894156731fb9cc165f2",
+      "capturedAt": "2026-07-23T02:30:44.913Z",
+      "observedRegion": "NG",
+      "captureType": "checkout_pricing_config",
+      "evidenceScope": "regional_checkout",
+      "evidence": {
+        "planText": "ChatGPT Pro 20x",
+        "priceText": "₦299,900",
+        "regionSignal": "official checkout config country_code=NG",
+        "endpointCountry": "NG",
+        "priceInterval": "month",
+        "taxBehavior": "inclusive",
+        "collectorVersion": "chatgpt-checkout-config-v1"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1578 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-07-17T10:22:49.670Z",
+  "runStartedAt": "2026-07-17T10:22:30.487Z",
+  "product": {
+    "name": "ChatGPT",
+    "appleAppId": "6448311069",
+    "seller": "OpenAI OpCo, LLC"
+  },
+  "policy": {
+    "failClosed": true,
+    "acceptedPriceSources": [
+      "Official Apple App Store public product listing"
+    ],
+    "conversionSource": "European Central Bank daily reference rates",
+    "notes": [
+      "Web, iOS, and Android prices are separate channels and are never merged.",
+      "Tax treatment is not inferred from price text and is intentionally omitted.",
+      "A missing official price produces a failure record, never an estimated value.",
+      "USD equivalents are omitted when the official exchange-rate feed lacks a currency.",
+      "Candidates that fail coverage, baseline, integrity, or price-change checks are quarantined."
+    ]
+  },
+  "exchangeRates": {
+    "provider": "European Central Bank",
+    "sourceUrl": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml",
+    "base": "EUR",
+    "date": "2026-07-16",
+    "rates": {
+      "EUR": 1,
+      "USD": 1.1467,
+      "JPY": 185.99,
+      "CZK": 24.194,
+      "DKK": 7.4753,
+      "GBP": 0.84873,
+      "HUF": 361.05,
+      "PLN": 4.3285,
+      "RON": 5.241,
+      "SEK": 11.0285,
+      "CHF": 0.925,
+      "ISK": 143,
+      "NOK": 11.064,
+      "TRY": 53.9577,
+      "AUD": 1.6362,
+      "BRL": 5.8318,
+      "CAD": 1.6082,
+      "CNY": 7.7596,
+      "HKD": 8.9898,
+      "IDR": 20623.8,
+      "ILS": 3.4499,
+      "INR": 110.4895,
+      "KRW": 1696.49,
+      "MXN": 19.9829,
+      "MYR": 4.6699,
+      "NZD": 1.9583,
+      "PHP": 70.667,
+      "SGD": 1.4782,
+      "THB": 38.489,
+      "ZAR": 18.7727
+    },
+    "etag": null,
+    "lastModified": "Thu, 16 Jul 2026 13:56:17 GMT",
+    "sourceSha256": "e5e9bd0b5134a7bff7eccc7f292a74715bed3cc0a35daef135d57e8eb55c73dd"
+  },
+  "officialReferences": [
+    {
+      "kind": "openai_pricing",
+      "url": "https://openai.com/chatgpt/pricing/",
+      "status": "reachable",
+      "collectedAt": "2026-07-17T10:22:30.979Z",
+      "finalUrl": "https://chatgpt.com/pricing/",
+      "sourceSha256": "c6ac959e80003f718df977104382550d0756896920c01f6c7753ddc659259870",
+      "etag": null,
+      "lastModified": null,
+      "evidence": {}
+    },
+    {
+      "kind": "openai_multi_currency",
+      "url": "https://help.openai.com/en/articles/10421635-multi-currency-billing",
+      "status": "reachable",
+      "collectedAt": "2026-07-17T10:22:30.980Z",
+      "finalUrl": "https://help.openai.com/en/articles/10421635-multi-currency-billing",
+      "sourceSha256": "01a997fb9ea81eb00d84f87e22209830a10a9c03f51ed75689598741e037bc49",
+      "etag": null,
+      "lastModified": null,
+      "evidence": {
+        "supportedCurrencies": [
+          "AED",
+          "ALL",
+          "AMD",
+          "AUD",
+          "AWG",
+          "AZN",
+          "BAM",
+          "BDT",
+          "BGN",
+          "BHD",
+          "BMD",
+          "BRL",
+          "BSD",
+          "CAD",
+          "CHF",
+          "CLP",
+          "CNY",
+          "COP",
+          "CRC",
+          "CZK",
+          "DKK",
+          "EGP",
+          "EUR",
+          "FJD",
+          "GBP",
+          "GEL",
+          "HUF",
+          "IDR",
+          "ILS",
+          "INR",
+          "IQD",
+          "ISK",
+          "JMD",
+          "JOD",
+          "JPY",
+          "KRW",
+          "KWD",
+          "KYD",
+          "KZT",
+          "LBP",
+          "LKR",
+          "MDL",
+          "MKD",
+          "MMK",
+          "MXN",
+          "MYR",
+          "NGN",
+          "NOK",
+          "NZD",
+          "OMR",
+          "PEN",
+          "PHP",
+          "PKR",
+          "PLN",
+          "QAR",
+          "RON",
+          "RSD",
+          "SAR",
+          "SEK",
+          "SGD",
+          "THB",
+          "TRY",
+          "TWD",
+          "TZS",
+          "UAH",
+          "USD",
+          "VND",
+          "ZAR"
+        ]
+      }
+    },
+    {
+      "kind": "chatgpt_plus_plan",
+      "url": "https://help.openai.com/en/articles/6950777-what-is-chatgpt-plus",
+      "status": "unreachable",
+      "collectedAt": "2026-07-17T10:22:30.980Z",
+      "error": "fetch failed"
+    },
+    {
+      "kind": "chatgpt_pro_plan",
+      "url": "https://help.openai.com/en/articles/9793128-what-is-chatgpt-pro",
+      "status": "reachable",
+      "collectedAt": "2026-07-17T10:22:30.981Z",
+      "finalUrl": "https://help.openai.com/en/articles/9793128-what-is-chatgpt-pro",
+      "sourceSha256": "52e78ef192d92de525541065a1c82f9ed7ce9226b39ce69e62d2150fc3a0b5e4",
+      "etag": null,
+      "lastModified": null,
+      "evidence": {}
+    }
+  ],
+  "summary": {
+    "configuredStorefronts": 15,
+    "completeStorefronts": 15,
+    "partialStorefronts": 0,
+    "failedStorefronts": 0,
+    "records": 30
+  },
+  "records": [
+    {
+      "id": "ios:ph:plus",
+      "product": "ChatGPT",
+      "plan": "plus",
+      "channel": "ios",
+      "storefront": "PH",
+      "storefrontNameZh": "菲律宾",
+      "flag": "🇵🇭",
+      "currency": "PHP",
+      "localPrice": 999,
+      "localPriceDisplay": "₱ 999.00",
+      "usdEquivalent": 16.21,
+      "usdRateDate": "2026-07-16",
+      "sourceType": "official_apple_app_store_listing",
+      "sourceUrl": "https://apps.apple.com/ph/app/chatgpt/id6448311069?platform=vision",
+      "sourceSha256": "9c73682bb86e7e2caaa122df72959e0c4455d1fd12b959b0d7d9f6055b8b7c1b",
+      "sourceEtag": "\"xuyo8pgDKIVswmi9WluJXSoE1AzouD5jLWmaAnedJQY=\"",
+      "sourceLastModified": null,
+      "collectedAt": "2026-07-17T10:22:43.517Z",
+      "verificationStatus": "official_source_collected",
+      "parserVersion": "apple-annotation-text-pair-v1",
+      "evidence": {
+        "selectedLabel": "ChatGPT Plus",
+        "selectedDisplay": "₱ 999.00",
+        "candidates": [
+          {
+            "label": "ChatGPT Plus",
+            "display": "₱ 999.00",
+            "amount": 999
+          },
+          {
+            "label": "ChatGPT Pro 20x",
+            "display": "₱ 9,990.00",
+            "amount": 9990
+          },
+          {
+            "label": "ChatGPT Plus",
+            "display": "₱ 9,990.00",
+            "amount": 9990
+          }
+        ],
+        "selectionRule": "lowest matching official product label; annual duplicate retained in evidence",
+        "fetchAttempt": 2
+      }
+    },
+    {
+      "id": "ios:ph:pro",
+      "product": "ChatGPT",
+      "plan": "pro",
+      "channel": "ios",
+      "storefront": "PH",
+      "storefrontNameZh": "菲律宾",
+      "flag": "🇵🇭",
+      "currency": "PHP",
+      "localPrice": 9990,
+      "localPriceDisplay": "₱ 9,990.00",
+      "usdEquivalent": 162.11,
+      "usdRateDate": "2026-07-16",
+      "sourceType": "official_apple_app_store_listing",
+      "sourceUrl": "https://apps.apple.com/ph/app/chatgpt/id6448311069?platform=vision",
+      "sourceSha256": "9c73682bb86e7e2caaa122df72959e0c4455d1fd12b959b0d7d9f6055b8b7c1b",
+      "sourceEtag": "\"xuyo8pgDKIVswmi9WluJXSoE1AzouD5jLWmaAnedJQY=\"",
+      "sourceLastModified": null,
+      "collectedAt": "2026-07-17T10:22:43.517Z",
+      "verificationStatus": "official_source_collected",
+      "parserVersion": "apple-annotation-text-pair-v1",
+      "evidence": {
+        "selectedLabel": "ChatGPT Pro 20x",
+        "selectedDisplay": "₱ 9,990.00",
+        "candidates": [
+          {
+            "label": "ChatGPT Plus",
+            "display": "₱ 999.00",
+            "amount": 999
+          },
+          {
+            "label": "ChatGPT Pro 20x",
+            "display": "₱ 9,990.00",
+            "amount": 9990
+          },
+          {
+            "label": "ChatGPT Plus",
+            "display": "₱ 9,990.00",
+            "amount": 9990
+          }
+        ],
+        "selectionRule": "lowest matching official product label; annual duplicate retained in evidence",
+        "fetchAttempt": 2
+      }
+    },
+    {
+      "id": "ios:pk:plus",
+      "product": "ChatGPT",
+      "plan": "plus",
+      "channel": "ios",
+      "storefront": "PK",
+      "storefrontNameZh": "巴基斯坦",
+      "flag": "🇵🇰",
+      "currency": "PKR",
+      "localPrice": 4900,
+      "localPriceDisplay": "Rs 4,900.00",
+      "usdEquivalent": null,
+      "usdRateDate": "2026-07-16",
+      "sourceType": "official_apple_app_store_listing",
+      "sourceUrl": "https://apps.apple.com/pk/app/chatgpt/id6448311069?platform=vision",
+      "sourceSha256": "03c03c76c5ee2be789f6d62e8390c1a08aee9fc238a8b8a641e6aed0cfb84861",
+      "sourceEtag": "\"QAimgQWrjSbt1cizMsfc1f8s5xxiPFp4DLiDhl52tLk=\"",
+      "sourceLastModified": null,
+      "collectedAt": "2026-07-17T10:22:43.518Z",
+      "verificationStatus": "official_source_collected",
+      "parserVersion": "apple-annotation-text-pair-v1",
+      "evidence": {
+        "selectedLabel": "ChatGPT Plus",
+        "selectedDisplay": "Rs 4,900.00",
+        "candidates": [
+          {
+            "label": "ChatGPT Plus",
+            "display": "Rs 4,900.00",
+            "amount": 4900
+          },
+          {
+            "label": "ChatGPT Pro 20x",
+            "display": "Rs 49,900.00",
+            "amount": 49900
+          },
+          {
+            "label": "ChatGPT Plus",
+            "display": "Rs 49,900.00",
+            "amount": 49900
+          }
+        ],
+        "selectionRule": "lowest matching official product label; annual duplicate retained in evidence",
+        "fetchAttempt": 2
+      }
+    },
+    {
+      "id": "ios:pk:pro",
+      "product": "ChatGPT",
+      "plan": "pro",
+      "channel": "ios",
+      "storefront": "PK",
+      "storefrontNameZh": "巴基斯坦",
+      "flag": "🇵🇰",
+      "currency": "PKR",
+      "localPrice": 49900,
+      "localPriceDisplay": "Rs 49,900.00",
+      "usdEquivalent": null,
+      "usdRateDate": "2026-07-16",
+      "sourceType": "official_apple_app_store_listing",
+      "sourceUrl": "https://apps.apple.com/pk/app/chatgpt/id6448311069?platform=vision",
+      "sourceSha256": "03c03c76c5ee2be789f6d62e8390c1a08aee9fc238a8b8a641e6aed0cfb84861",
+      "sourceEtag": "\"QAimgQWrjSbt1cizMsfc1f8s5xxiPFp4DLiDhl52tLk=\"",
+      "sourceLastModified": null,
+      "collectedAt": "2026-07-17T10:22:43.518Z",
+      "verificationStatus": "official_source_collected",
+      "parserVersion": "apple-annotation-text-pair-v1",
+      "evidence": {
+        "selectedLabel": "ChatGPT Pro 20x",
+        "selectedDisplay": "Rs 49,900.00",
+        "candidates": [
+          {
+            "label": "ChatGPT Plus",
+            "display": "Rs 4,900.00",
+            "amount": 4900
+          },
+          {
+            "label": "ChatGPT Pro 20x",
+            "display": "Rs 49,900.00",
+            "amount": 49900
+          },
+          {
+            "label": "ChatGPT Plus",
+            "display": "Rs 49,900.00",
+            "amount": 49900
+          }
+        ],
+        "selectionRule": "lowest matching official product label; annual duplicate retained in evidence",
+        "fetchAttempt": 2
+      }
+    },
+    {
+      "id": "ios:ca:plus",
+      "product": "ChatGPT",
+      "plan": "plus",
+      "channel": "ios",
+      "storefront": "CA",
+      "storefrontNameZh": "加拿大",
+      "flag": "🇨🇦",
+      "currency": "CAD",
+      "localPrice": 24.99,
+      "localPriceDisplay": "$24.99",
+      "usdEquivalent": 17.82,
+      "usdRateDate": "2026-07-16",
+      "sourceType": "official_apple_app_store_listing",
+      "sourceUrl": "https://apps.apple.com/ca/app/chatgpt/id6448311069?platform=vision",
+      "sourceSha256": "0e12db4bc814531f91f8adcbaf2fef8f52977bb02702a4e25db71b55d84c76ab",
+      "sourceEtag": "\"9X9ohlRUZ7OEXrcP3YUtwzWblCSStO/a9pztL3LJE5Y=\"",
+      "sourceLastModified": null,
+      "collectedAt": "2026-07-17T10:22:43.518Z",
+      "verificationStatus": "official_source_collected",
+      "parserVersion": "apple-annotation-text-pair-v1",
+      "evidence": {
+        "selectedLabel": "ChatGPT Plus",
+        "selectedDisplay": "$24.99",
+        "candidates": [
+          {
+            "label": "ChatGPT Plus",
+            "display": "$24.99",
+            "amount": 24.99
+          },
+          {
+            "label": "ChatGPT Pro 20x",
+            "display": "$249.00",
+            "amount": 249
+          },
+          {
+            "label": "ChatGPT Plus",
+            "display": "$249.00",
+            "amount": 249
+          }
+        ],
+        "selectionRule": "lowest matching official product label; annual duplicate retained in evidence",
+        "fetchAttempt": 1
+      }
+    },
+    {
+      "id": "ios:ca:pro",
+      "product": "ChatGPT",
+      "plan": "pro",
+      "channel": "ios",
+      "storefront": "CA",
+      "storefrontNameZh": "加拿大",
+      "flag": "🇨🇦",
+      "currency": "CAD",
+      "localPrice": 249,
+      "localPriceDisplay": "$249.00",
+      "usdEquivalent": 177.55,
+      "usdRateDate": "2026-07-16",
+      "sourceType": "official_apple_app_store_listing",
+      "sourceUrl": "https://apps.apple.com/ca/app/chatgpt/id6448311069?platform=vision",
+      "sourceSha256": "0e12db4bc814531f91f8adcbaf2fef8f52977bb02702a4e25db71b55d84c76ab",
+      "sourceEtag": "\"9X9ohlRUZ7OEXrcP3YUtwzWblCSStO/a9pztL3LJE5Y=\"",
+      "sourceLastModified": null,
+      "collectedAt": "2026-07-17T10:22:43.518Z",
+      "verificationStatus": "official_source_collected",
+      "parserVersion": "apple-annotation-text-pair-v1",
+      "evidence": {
+        "selectedLabel": "ChatGPT Pro 20x",
+        "selectedDisplay": "$249.00",
+        "candidates": [
+          {
+            "label": "ChatGPT Plus",
+            "display": "$24.99",
+            "amount": 24.99
+          },
+          {
+            "label": "ChatGPT Pro 20x",
+            "display": "$249.00",
+            "amount": 249
+          },
+          {
+            "label": "ChatGPT Plus",
+            "display": "$249.00",
+            "amount": 249
+          }
+        ],
+        "selectionRule": "lowest matching official product label; annual duplicate retained in evidence",
+        "fetchAttempt": 1
+      }
+    },
+    {
+      "id": "ios:jp:plus",
+      "product": "ChatGPT",
+      "plan": "plus",
+      "channel": "ios",
+      "storefront": "JP",
+      "storefrontNameZh": "日本",
+      "flag": "🇯🇵",
+      "currency": "JPY",
+      "localPrice": 3000,
+      "localPriceDisplay": "¥3,000",
+      "usdEquivalent": 18.5,
+      "usdRateDate": "2026-07-16",
+      "sourceType": "official_apple_app_store_listing",
+      "sourceUrl": "https://apps.apple.com/jp/app/chatgpt/id6448311069?platform=vision",
+      "sourceSha256": "c3f79efcb2e26dc3bba68ad265754e989aca8a60e8a33f2875589c6131133e61",
+      "sourceEtag": "\"tzmlD4Vnskip6jkO0fUeGZaki+mWxzq8LWwueyRo9/c=\"",
+      "sourceLastModified": null,
+      "collectedAt": "2026-07-17T10:22:43.960Z",
+      "verificationStatus": "official_source_collected",
+      "parserVersion": "apple-annotation-text-pair-v1",
+      "evidence": {
+        "selectedLabel": "ChatGPT Plus",
+        "selectedDisplay": "¥3,000",
+        "candidates": [
+          {
+            "label": "ChatGPT Plus",
+            "display": "¥3,000",
+            "amount": 3000
+          },
+          {
+            "label": "ChatGPT Pro 20x",
+            "display": "¥30,000",
+            "amount": 30000
+          },
+          {
+            "label": "ChatGPT Plus",
+            "display": "¥30,000",
+            "amount": 30000
+          }
+        ],
+        "selectionRule": "lowest matching official product label; annual duplicate retained in evidence",
+        "fetchAttempt": 1
+      }
+    },
+    {
+      "id": "ios:jp:pro",
+      "product": "ChatGPT",
+      "plan": "pro",
+      "channel": "ios",
+      "storefront": "JP",
+      "storefrontNameZh": "日本",
+      "flag": "🇯🇵",
+      "currency": "JPY",
+      "localPrice": 30000,
+      "localPriceDisplay": "¥30,000",
+      "usdEquivalent": 184.96,
+      "usdRateDate": "2026-07-16",
+      "sourceType": "official_apple_app_store_listing",
+      "sourceUrl": "https://apps.apple.com/jp/app/chatgpt/id6448311069?platform=vision",
+      "sourceSha256": "c3f79efcb2e26dc3bba68ad265754e989aca8a60e8a33f2875589c6131133e61",
+      "sourceEtag": "\"tzmlD4Vnskip6jkO0fUeGZaki+mWxzq8LWwueyRo9/c=\"",
+      "sourceLastModified": null,
+      "collectedAt": "2026-07-17T10:22:43.960Z",
+      "verificationStatus": "official_source_collected",
+      "parserVersion": "apple-annotation-text-pair-v1",
+      "evidence": {
+        "selectedLabel": "ChatGPT Pro 20x",
+        "selectedDisplay": "¥30,000",
+        "candidates": [
+          {
+            "label": "ChatGPT Plus",
+            "display": "¥3,000",
+            "amount": 3000
+          },
+          {
+            "label": "ChatGPT Pro 20x",
+            "display": "¥30,000",
+            "amount": 30000
+          },
+          {
+            "label": "ChatGPT Plus",
+            "display": "¥30,000",
+            "amount": 30000
+          }
+        ],
+        "selectionRule": "lowest matching official product label; annual duplicate retained in evidence",
+        "fetchAttempt": 1
+      }
+    },
+    {
+      "id": "ios:kr:plus",
+      "product": "ChatGPT",
+      "plan": "plus",
+      "channel": "ios",
+      "storefront": "KR",
+      "storefrontNameZh": "韩国",
+      "flag": "🇰🇷",
+      "currency": "KRW",
+      "localPrice": 29000,
+      "localPriceDisplay": "￦29,000",
+      "usdEquivalent": 19.6,
+      "usdRateDate": "2026-07-16",
+      "sourceType": "official_apple_app_store_listing",
+      "sourceUrl": "https://apps.apple.com/kr/app/chatgpt/id6448311069?platform=vision",
+      "sourceSha256": "21189b60c8e252de094d6603a49b244c07f0c9a39d2d15944954f455cd0c4f4e",
+      "sourceEtag": "\"i0Ocw/8tgfgm4XslzarKcZP/7ZijyE1Q9dUcOtvsy9A=\"",
+      "sourceLastModified": null,
+      "collectedAt": "2026-07-17T10:22:44.084Z",
+      "verificationStatus": "official_source_collected",
+      "parserVersion": "apple-annotation-text-pair-v1",
+      "evidence": {
+        "selectedLabel": "ChatGPT Plus",
+        "selectedDisplay": "￦29,000",
+        "candidates": [
+          {
+            "label": "ChatGPT Plus",
+            "display": "￦29,000",
+            "amount": 29000
+          },
+          {
+            "label": "ChatGPT Pro 20x",
+            "display": "￦299,000",
+            "amount": 299000
+          },
+          {
+            "label": "ChatGPT Plus",
+            "display": "￦299,000",
+            "amount": 299000
+          }
+        ],
+        "selectionRule": "lowest matching official product label; annual duplicate retained in evidence",
+        "fetchAttempt": 1
+      }
+    },
+    {
+      "id": "ios:kr:pro",
+      "product": "ChatGPT",
+      "plan": "pro",
+      "channel": "ios",
+      "storefront": "KR",
+      "storefrontNameZh": "韩国",
+      "flag": "🇰🇷",
+      "currency": "KRW",
+      "localPrice": 299000,
+      "localPriceDisplay": "￦299,000",
+      "usdEquivalent": 202.1,
+      "usdRateDate": "2026-07-16",
+      "sourceType": "official_apple_app_store_listing",
+      "sourceUrl": "https://apps.apple.com/kr/app/chatgpt/id6448311069?platform=vision",
+      "sourceSha256": "21189b60c8e252de094d6603a49b244c07f0c9a39d2d15944954f455cd0c4f4e",
+      "sourceEtag": "\"i0Ocw/8tgfgm4XslzarKcZP/7ZijyE1Q9dUcOtvsy9A=\"",
+      "sourceLastModified": null,
+      "collectedAt": "2026-07-17T10:22:44.084Z",
+      "verificationStatus": "official_source_collected",
+      "parserVersion": "apple-annotation-text-pair-v1",
+      "evidence": {
+        "selectedLabel": "ChatGPT Pro 20x",
+        "selectedDisplay": "￦299,000",
+        "candidates": [
+          {
+            "label": "ChatGPT Plus",
+            "display": "￦29,000",
+            "amount": 29000
+          },
+          {
+            "label": "ChatGPT Pro 20x",
+            "display": "￦299,000",
+            "amount": 299000
+          },
+          {
+            "label": "ChatGPT Plus",
+            "display": "￦299,000",
+            "amount": 299000
+          }
+        ],
+        "selectionRule": "lowest matching official product label; annual duplicate retained in evidence",
+        "fetchAttempt": 1
+      }
+    },
+    {
+      "id": "ios:br:plus",
+      "product": "ChatGPT",
+      "plan": "plus",
+      "channel": "ios",
+      "storefront": "BR",
+      "storefrontNameZh": "巴西",
+      "flag": "🇧🇷",
+      "currency": "BRL",
+      "localPrice": 99.9,
+      "localPriceDisplay": "R$ 99,90",
+      "usdEquivalent": 19.64,
+      "usdRateDate": "2026-07-16",
+      "sourceType": "official_apple_app_store_listing",
+      "sourceUrl": "https://apps.apple.com/br/app/chatgpt/id6448311069?platform=vision",
+      "sourceSha256": "4db633cf333fdcced9476b97266418accdfa0161d1d486ac2fc74716feb76d1e",
+      "sourceEtag": "\"ISHuRdjqsX87Hr2ZivwVs83taZd8E6iHWuoRONDW+W8=\"",
+      "sourceLastModified": null,
+      "collectedAt": "2026-07-17T10:22:44.206Z",
+      "verificationStatus": "official_source_collected",
+      "parserVersion": "apple-annotation-text-pair-v1",
+      "evidence": {
+        "selectedLabel": "ChatGPT Plus",
+        "selectedDisplay": "R$ 99,90",
+        "candidates": [
+          {
+            "label": "ChatGPT Plus",
+            "display": "R$ 99,90",
+            "amount": 99.9
+          },
+          {
+            "label": "ChatGPT Pro 20x",
+            "display": "R$ 999,90",
+            "amount": 999.9
+          },
+          {
+            "label": "ChatGPT Plus",
+            "display": "R$ 999,90",
+            "amount": 999.9
+          }
+        ],
+        "selectionRule": "lowest matching official product label; annual duplicate retained in evidence",
+        "fetchAttempt": 1
+      }
+    },
+    {
+      "id": "ios:br:pro",
+      "product": "ChatGPT",
+      "plan": "pro",
+      "channel": "ios",
+      "storefront": "BR",
+      "storefrontNameZh": "巴西",
+      "flag": "🇧🇷",
+      "currency": "BRL",
+      "localPrice": 999.9,
+      "localPriceDisplay": "R$ 999,90",
+      "usdEquivalent": 196.61,
+      "usdRateDate": "2026-07-16",
+      "sourceType": "official_apple_app_store_listing",
+      "sourceUrl": "https://apps.apple.com/br/app/chatgpt/id6448311069?platform=vision",
+      "sourceSha256": "4db633cf333fdcced9476b97266418accdfa0161d1d486ac2fc74716feb76d1e",
+      "sourceEtag": "\"ISHuRdjqsX87Hr2ZivwVs83taZd8E6iHWuoRONDW+W8=\"",
+      "sourceLastModified": null,
+      "collectedAt": "2026-07-17T10:22:44.206Z",
+      "verificationStatus": "official_source_collected",
+      "parserVersion": "apple-annotation-text-pair-v1",
+      "evidence": {
+        "selectedLabel": "ChatGPT Pro 20x",
+        "selectedDisplay": "R$ 999,90",
+        "candidates": [
+          {
+            "label": "ChatGPT Plus",
+            "display": "R$ 99,90",
+            "amount": 99.9
+          },
+          {
+            "label": "ChatGPT Pro 20x",
+            "display": "R$ 999,90",
+            "amount": 999.9
+          },
+          {
+            "label": "ChatGPT Plus",
+            "display": "R$ 999,90",
+            "amount": 999.9
+          }
+        ],
+        "selectionRule": "lowest matching official product label; annual duplicate retained in evidence",
+        "fetchAttempt": 1
+      }
+    },
+    {
+      "id": "ios:us:plus",
+      "product": "ChatGPT",
+      "plan": "plus",
+      "channel": "ios",
+      "storefront": "US",
+      "storefrontNameZh": "美国",
+      "flag": "🇺🇸",
+      "currency": "USD",
+      "localPrice": 19.99,
+      "localPriceDisplay": "$19.99",
+      "usdEquivalent": 19.99,
+      "usdRateDate": "2026-07-16",
+      "sourceType": "official_apple_app_store_listing",
+      "sourceUrl": "https://apps.apple.com/us/app/chatgpt/id6448311069?platform=vision",
+      "sourceSha256": "d0891529dacd773da27ce7199c089b9fe7ad4af6dfdacb3d94d739ccaababa58",
+      "sourceEtag": "\"UvplxEVsMwd0HzDgWISxmWffeuDg82IrZIjRkmgjcao=\"",
+      "sourceLastModified": null,
+      "collectedAt": "2026-07-17T10:22:44.331Z",
+      "verificationStatus": "official_source_collected",
+      "parserVersion": "apple-annotation-text-pair-v1",
+      "evidence": {
+        "selectedLabel": "ChatGPT Plus",
+        "selectedDisplay": "$19.99",
+        "candidates": [
+          {
+            "label": "ChatGPT Plus",
+            "display": "$19.99",
+            "amount": 19.99
+          },
+          {
+            "label": "ChatGPT Pro 20x",
+            "display": "$200.00",
+            "amount": 200
+          },
+          {
+            "label": "ChatGPT Plus",
+            "display": "$200.00",
+            "amount": 200
+          }
+        ],
+        "selectionRule": "lowest matching official product label; annual duplicate retained in evidence",
+        "fetchAttempt": 1
+      }
+    },
+    {
+      "id": "ios:us:pro",
+      "product": "ChatGPT",
+      "plan": "pro",
+      "channel": "ios",
+      "storefront": "US",
+      "storefrontNameZh": "美国",
+      "flag": "🇺🇸",
+      "currency": "USD",
+      "localPrice": 200,
+      "localPriceDisplay": "$200.00",
+      "usdEquivalent": 200,
+      "usdRateDate": "2026-07-16",
+      "sourceType": "official_apple_app_store_listing",
+      "sourceUrl": "https://apps.apple.com/us/app/chatgpt/id6448311069?platform=vision",
+      "sourceSha256": "d0891529dacd773da27ce7199c089b9fe7ad4af6dfdacb3d94d739ccaababa58",
+      "sourceEtag": "\"UvplxEVsMwd0HzDgWISxmWffeuDg82IrZIjRkmgjcao=\"",
+      "sourceLastModified": null,
+      "collectedAt": "2026-07-17T10:22:44.331Z",
+      "verificationStatus": "official_source_collected",
+      "parserVersion": "apple-annotation-text-pair-v1",
+      "evidence": {
+        "selectedLabel": "ChatGPT Pro 20x",
+        "selectedDisplay": "$200.00",
+        "candidates": [
+          {
+            "label": "ChatGPT Plus",
+            "display": "$19.99",
+            "amount": 19.99
+          },
+          {
+            "label": "ChatGPT Pro 20x",
+            "display": "$200.00",
+            "amount": 200
+          },
+          {
+            "label": "ChatGPT Plus",
+            "display": "$200.00",
+            "amount": 200
+          }
+        ],
+        "selectionRule": "lowest matching official product label; annual duplicate retained in evidence",
+        "fetchAttempt": 1
+      }
+    },
+    {
+      "id": "ios:in:plus",
+      "product": "ChatGPT",
+      "plan": "plus",
+      "channel": "ios",
+      "storefront": "IN",
+      "storefrontNameZh": "印度",
+      "flag": "🇮🇳",
+      "currency": "INR",
+      "localPrice": 1999,
+      "localPriceDisplay": "₹ 1,999",
+      "usdEquivalent": 20.75,
+      "usdRateDate": "2026-07-16",
+      "sourceType": "official_apple_app_store_listing",
+      "sourceUrl": "https://apps.apple.com/in/app/chatgpt/id6448311069?platform=vision",
+      "sourceSha256": "ea637e7064817ac0e601ae80662af3b81d5e9f35477e2a64670e431b39697e54",
+      "sourceEtag": "\"p1O2Apaj3Ljsq1xxMsEWKju/a0/jJOIZklT+KeFGJvk=\"",
+      "sourceLastModified": null,
+      "collectedAt": "2026-07-17T10:22:44.459Z",
+      "verificationStatus": "official_source_collected",
+      "parserVersion": "apple-annotation-text-pair-v1",
+      "evidence": {
+        "selectedLabel": "ChatGPT Plus",
+        "selectedDisplay": "₹ 1,999",
+        "candidates": [
+          {
+            "label": "ChatGPT Plus",
+            "display": "₹ 1,999",
+            "amount": 1999
+          },
+          {
+            "label": "ChatGPT Pro 20x",
+            "display": "₹ 19,900",
+            "amount": 19900
+          },
+          {
+            "label": "ChatGPT Plus",
+            "display": "₹ 19,900",
+            "amount": 19900
+          }
+        ],
+        "selectionRule": "lowest matching official product label; annual duplicate retained in evidence",
+        "fetchAttempt": 1
+      }
+    },
+    {
+      "id": "ios:in:pro",
+      "product": "ChatGPT",
+      "plan": "pro",
+      "channel": "ios",
+      "storefront": "IN",
+      "storefrontNameZh": "印度",
+      "flag": "🇮🇳",
+      "currency": "INR",
+      "localPrice": 19900,
+      "localPriceDisplay": "₹ 19,900",
+      "usdEquivalent": 206.53,
+      "usdRateDate": "2026-07-16",
+      "sourceType": "official_apple_app_store_listing",
+      "sourceUrl": "https://apps.apple.com/in/app/chatgpt/id6448311069?platform=vision",
+      "sourceSha256": "ea637e7064817ac0e601ae80662af3b81d5e9f35477e2a64670e431b39697e54",
+      "sourceEtag": "\"p1O2Apaj3Ljsq1xxMsEWKju/a0/jJOIZklT+KeFGJvk=\"",
+      "sourceLastModified": null,
+      "collectedAt": "2026-07-17T10:22:44.459Z",
+      "verificationStatus": "official_source_collected",
+      "parserVersion": "apple-annotation-text-pair-v1",
+      "evidence": {
+        "selectedLabel": "ChatGPT Pro 20x",
+        "selectedDisplay": "₹ 19,900",
+        "candidates": [
+          {
+            "label": "ChatGPT Plus",
+            "display": "₹ 1,999",
+            "amount": 1999
+          },
+          {
+            "label": "ChatGPT Pro 20x",
+            "display": "₹ 19,900",
+            "amount": 19900
+          },
+          {
+            "label": "ChatGPT Plus",
+            "display": "₹ 19,900",
+            "amount": 19900
+          }
+        ],
+        "selectionRule": "lowest matching official product label; annual duplicate retained in evidence",
+        "fetchAttempt": 1
+      }
+    },
+    {
+      "id": "ios:au:plus",
+      "product": "ChatGPT",
+      "plan": "plus",
+      "channel": "ios",
+      "storefront": "AU",
+      "storefrontNameZh": "澳大利亚",
+      "flag": "🇦🇺",
+      "currency": "AUD",
+      "localPrice": 29.99,
+      "localPriceDisplay": "$29.99",
+      "usdEquivalent": 21.02,
+      "usdRateDate": "2026-07-16",
+      "sourceType": "official_apple_app_store_listing",
+      "sourceUrl": "https://apps.apple.com/au/app/chatgpt/id6448311069?platform=vision",
+      "sourceSha256": "25094cc67de6a747700372e3b0968a5c689269e5accf65581837f8597c562574",
+      "sourceEtag": "\"9YxmNfjOGvfpj1W7HOgxBVcpIWInqOSW23sPlvYgypU=\"",
+      "sourceLastModified": null,
+      "collectedAt": "2026-07-17T10:22:44.577Z",
+      "verificationStatus": "official_source_collected",
+      "parserVersion": "apple-annotation-text-pair-v1",
+      "evidence": {
+        "selectedLabel": "ChatGPT Plus",
+        "selectedDisplay": "$29.99",
+        "candidates": [
+          {
+            "label": "ChatGPT Plus",
+            "display": "$29.99",
+            "amount": 29.99
+          },
+          {
+            "label": "ChatGPT Pro 20x",
+            "display": "$300.00",
+            "amount": 300
+          },
+          {
+            "label": "ChatGPT Plus",
+            "display": "$300.00",
+            "amount": 300
+          }
+        ],
+        "selectionRule": "lowest matching official product label; annual duplicate retained in evidence",
+        "fetchAttempt": 1
+      }
+    },
+    {
+      "id": "ios:au:pro",
+      "product": "ChatGPT",
+      "plan": "pro",
+      "channel": "ios",
+      "storefront": "AU",
+      "storefrontNameZh": "澳大利亚",
+      "flag": "🇦🇺",
+      "currency": "AUD",
+      "localPrice": 300,
+      "localPriceDisplay": "$300.00",
+      "usdEquivalent": 210.25,
+      "usdRateDate": "2026-07-16",
+      "sourceType": "official_apple_app_store_listing",
+      "sourceUrl": "https://apps.apple.com/au/app/chatgpt/id6448311069?platform=vision",
+      "sourceSha256": "25094cc67de6a747700372e3b0968a5c689269e5accf65581837f8597c562574",
+      "sourceEtag": "\"9YxmNfjOGvfpj1W7HOgxBVcpIWInqOSW23sPlvYgypU=\"",
+      "sourceLastModified": null,
+      "collectedAt": "2026-07-17T10:22:44.577Z",
+      "verificationStatus": "official_source_collected",
+      "parserVersion": "apple-annotation-text-pair-v1",
+      "evidence": {
+        "selectedLabel": "ChatGPT Pro 20x",
+        "selectedDisplay": "$300.00",
+        "candidates": [
+          {
+            "label": "ChatGPT Plus",
+            "display": "$29.99",
+            "amount": 29.99
+          },
+          {
+            "label": "ChatGPT Pro 20x",
+            "display": "$300.00",
+            "amount": 300
+          },
+          {
+            "label": "ChatGPT Plus",
+            "display": "$300.00",
+            "amount": 300
+          }
+        ],
+        "selectionRule": "lowest matching official product label; annual duplicate retained in evidence",
+        "fetchAttempt": 1
+      }
+    },
+    {
+      "id": "ios:tr:plus",
+      "product": "ChatGPT",
+      "plan": "plus",
+      "channel": "ios",
+      "storefront": "TR",
+      "storefrontNameZh": "土耳其",
+      "flag": "🇹🇷",
+      "currency": "TRY",
+      "localPrice": 999.99,
+      "localPriceDisplay": "₺999,99",
+      "usdEquivalent": 21.25,
+      "usdRateDate": "2026-07-16",
+      "sourceType": "official_apple_app_store_listing",
+      "sourceUrl": "https://apps.apple.com/tr/app/chatgpt/id6448311069?platform=vision",
+      "sourceSha256": "d4004f04925796153c7d2462987519b8af8cd27daf5344a451c21b4421648899",
+      "sourceEtag": "\"1VekrT9DDV2sECvw6a0WXHyy08/nGzzlo1b90EZwqoA=\"",
+      "sourceLastModified": null,
+      "collectedAt": "2026-07-17T10:22:44.687Z",
+      "verificationStatus": "official_source_collected",
+      "parserVersion": "apple-annotation-text-pair-v1",
+      "evidence": {
+        "selectedLabel": "ChatGPT Plus",
+        "selectedDisplay": "₺999,99",
+        "candidates": [
+          {
+            "label": "ChatGPT Plus",
+            "display": "₺999,99",
+            "amount": 999.99
+          },
+          {
+            "label": "ChatGPT Pro 20x",
+            "display": "₺9.999,99",
+            "amount": 9999.99
+          },
+          {
+            "label": "ChatGPT Plus",
+            "display": "₺9.999,99",
+            "amount": 9999.99
+          }
+        ],
+        "selectionRule": "lowest matching official product label; annual duplicate retained in evidence",
+        "fetchAttempt": 1
+      }
+    },
+    {
+      "id": "ios:tr:pro",
+      "product": "ChatGPT",
+      "plan": "pro",
+      "channel": "ios",
+      "storefront": "TR",
+      "storefrontNameZh": "土耳其",
+      "flag": "🇹🇷",
+      "currency": "TRY",
+      "localPrice": 9999.99,
+      "localPriceDisplay": "₺9.999,99",
+      "usdEquivalent": 212.52,
+      "usdRateDate": "2026-07-16",
+      "sourceType": "official_apple_app_store_listing",
+      "sourceUrl": "https://apps.apple.com/tr/app/chatgpt/id6448311069?platform=vision",
+      "sourceSha256": "d4004f04925796153c7d2462987519b8af8cd27daf5344a451c21b4421648899",
+      "sourceEtag": "\"1VekrT9DDV2sECvw6a0WXHyy08/nGzzlo1b90EZwqoA=\"",
+      "sourceLastModified": null,
+      "collectedAt": "2026-07-17T10:22:44.687Z",
+      "verificationStatus": "official_source_collected",
+      "parserVersion": "apple-annotation-text-pair-v1",
+      "evidence": {
+        "selectedLabel": "ChatGPT Pro 20x",
+        "selectedDisplay": "₺9.999,99",
+        "candidates": [
+          {
+            "label": "ChatGPT Plus",
+            "display": "₺999,99",
+            "amount": 999.99
+          },
+          {
+            "label": "ChatGPT Pro 20x",
+            "display": "₺9.999,99",
+            "amount": 9999.99
+          },
+          {
+            "label": "ChatGPT Plus",
+            "display": "₺9.999,99",
+            "amount": 9999.99
+          }
+        ],
+        "selectionRule": "lowest matching official product label; annual duplicate retained in evidence",
+        "fetchAttempt": 1
+      }
+    },
+    {
+      "id": "ios:mx:plus",
+      "product": "ChatGPT",
+      "plan": "plus",
+      "channel": "ios",
+      "storefront": "MX",
+      "storefrontNameZh": "墨西哥",
+      "flag": "🇲🇽",
+      "currency": "MXN",
+      "localPrice": 399,
+      "localPriceDisplay": "$399.00",
+      "usdEquivalent": 22.9,
+      "usdRateDate": "2026-07-16",
+      "sourceType": "official_apple_app_store_listing",
+      "sourceUrl": "https://apps.apple.com/mx/app/chatgpt/id6448311069?platform=vision",
+      "sourceSha256": "ddb8dcbbcba913b143d67aef9d0c86d0aaa1b3eefa70ae6f6f2f1366365b528f",
+      "sourceEtag": "\"/uJaeiaoyLEipwTBBhHBMKuvXJDZx2s5+gniUMPeg7E=\"",
+      "sourceLastModified": null,
+      "collectedAt": "2026-07-17T10:22:44.795Z",
+      "verificationStatus": "official_source_collected",
+      "parserVersion": "apple-annotation-text-pair-v1",
+      "evidence": {
+        "selectedLabel": "ChatGPT Plus",
+        "selectedDisplay": "$399.00",
+        "candidates": [
+          {
+            "label": "ChatGPT Plus",
+            "display": "$399.00",
+            "amount": 399
+          },
+          {
+            "label": "ChatGPT Pro 20x",
+            "display": "$3,999.00",
+            "amount": 3999
+          },
+          {
+            "label": "ChatGPT Plus",
+            "display": "$3,999.00",
+            "amount": 3999
+          }
+        ],
+        "selectionRule": "lowest matching official product label; annual duplicate retained in evidence",
+        "fetchAttempt": 1
+      }
+    },
+    {
+      "id": "ios:mx:pro",
+      "product": "ChatGPT",
+      "plan": "pro",
+      "channel": "ios",
+      "storefront": "MX",
+      "storefrontNameZh": "墨西哥",
+      "flag": "🇲🇽",
+      "currency": "MXN",
+      "localPrice": 3999,
+      "localPriceDisplay": "$3,999.00",
+      "usdEquivalent": 229.48,
+      "usdRateDate": "2026-07-16",
+      "sourceType": "official_apple_app_store_listing",
+      "sourceUrl": "https://apps.apple.com/mx/app/chatgpt/id6448311069?platform=vision",
+      "sourceSha256": "ddb8dcbbcba913b143d67aef9d0c86d0aaa1b3eefa70ae6f6f2f1366365b528f",
+      "sourceEtag": "\"/uJaeiaoyLEipwTBBhHBMKuvXJDZx2s5+gniUMPeg7E=\"",
+      "sourceLastModified": null,
+      "collectedAt": "2026-07-17T10:22:44.795Z",
+      "verificationStatus": "official_source_collected",
+      "parserVersion": "apple-annotation-text-pair-v1",
+      "evidence": {
+        "selectedLabel": "ChatGPT Pro 20x",
+        "selectedDisplay": "$3,999.00",
+        "candidates": [
+          {
+            "label": "ChatGPT Plus",
+            "display": "$399.00",
+            "amount": 399
+          },
+          {
+            "label": "ChatGPT Pro 20x",
+            "display": "$3,999.00",
+            "amount": 3999
+          },
+          {
+            "label": "ChatGPT Plus",
+            "display": "$3,999.00",
+            "amount": 3999
+          }
+        ],
+        "selectionRule": "lowest matching official product label; annual duplicate retained in evidence",
+        "fetchAttempt": 1
+      }
+    },
+    {
+      "id": "ios:de:plus",
+      "product": "ChatGPT",
+      "plan": "plus",
+      "channel": "ios",
+      "storefront": "DE",
+      "storefrontNameZh": "德国",
+      "flag": "🇩🇪",
+      "currency": "EUR",
+      "localPrice": 22.99,
+      "localPriceDisplay": "22,99 €",
+      "usdEquivalent": 26.36,
+      "usdRateDate": "2026-07-16",
+      "sourceType": "official_apple_app_store_listing",
+      "sourceUrl": "https://apps.apple.com/de/app/chatgpt/id6448311069?platform=vision",
+      "sourceSha256": "5dbc6b7ad07617f87ef5efb6321ce65efd017446fa28114007b8d713506bbdb9",
+      "sourceEtag": "\"lPSTWb2y/JwWFYMEIQijk0djq/x7B0oMYjVy3wKmBp4=\"",
+      "sourceLastModified": null,
+      "collectedAt": "2026-07-17T10:22:44.900Z",
+      "verificationStatus": "official_source_collected",
+      "parserVersion": "apple-annotation-text-pair-v1",
+      "evidence": {
+        "selectedLabel": "ChatGPT Plus",
+        "selectedDisplay": "22,99 €",
+        "candidates": [
+          {
+            "label": "ChatGPT Plus",
+            "display": "22,99 €",
+            "amount": 22.99
+          },
+          {
+            "label": "ChatGPT Pro 20x",
+            "display": "229,00 €",
+            "amount": 229
+          },
+          {
+            "label": "ChatGPT Plus",
+            "display": "229,00 €",
+            "amount": 229
+          }
+        ],
+        "selectionRule": "lowest matching official product label; annual duplicate retained in evidence",
+        "fetchAttempt": 1
+      }
+    },
+    {
+      "id": "ios:de:pro",
+      "product": "ChatGPT",
+      "plan": "pro",
+      "channel": "ios",
+      "storefront": "DE",
+      "storefrontNameZh": "德国",
+      "flag": "🇩🇪",
+      "currency": "EUR",
+      "localPrice": 229,
+      "localPriceDisplay": "229,00 €",
+      "usdEquivalent": 262.59,
+      "usdRateDate": "2026-07-16",
+      "sourceType": "official_apple_app_store_listing",
+      "sourceUrl": "https://apps.apple.com/de/app/chatgpt/id6448311069?platform=vision",
+      "sourceSha256": "5dbc6b7ad07617f87ef5efb6321ce65efd017446fa28114007b8d713506bbdb9",
+      "sourceEtag": "\"lPSTWb2y/JwWFYMEIQijk0djq/x7B0oMYjVy3wKmBp4=\"",
+      "sourceLastModified": null,
+      "collectedAt": "2026-07-17T10:22:44.900Z",
+      "verificationStatus": "official_source_collected",
+      "parserVersion": "apple-annotation-text-pair-v1",
+      "evidence": {
+        "selectedLabel": "ChatGPT Pro 20x",
+        "selectedDisplay": "229,00 €",
+        "candidates": [
+          {
+            "label": "ChatGPT Plus",
+            "display": "22,99 €",
+            "amount": 22.99
+          },
+          {
+            "label": "ChatGPT Pro 20x",
+            "display": "229,00 €",
+            "amount": 229
+          },
+          {
+            "label": "ChatGPT Plus",
+            "display": "229,00 €",
+            "amount": 229
+          }
+        ],
+        "selectionRule": "lowest matching official product label; annual duplicate retained in evidence",
+        "fetchAttempt": 1
+      }
+    },
+    {
+      "id": "ios:fr:plus",
+      "product": "ChatGPT",
+      "plan": "plus",
+      "channel": "ios",
+      "storefront": "FR",
+      "storefrontNameZh": "法国",
+      "flag": "🇫🇷",
+      "currency": "EUR",
+      "localPrice": 22.99,
+      "localPriceDisplay": "22,99 €",
+      "usdEquivalent": 26.36,
+      "usdRateDate": "2026-07-16",
+      "sourceType": "official_apple_app_store_listing",
+      "sourceUrl": "https://apps.apple.com/fr/app/chatgpt/id6448311069?platform=vision",
+      "sourceSha256": "4047efe53816f60302c3d8ed0429c8dae4bca72580f90a8297fae5861b910560",
+      "sourceEtag": "\"GZQgywLSBGykBqzoaG95TyNXElUHCLkX4au5vRDMIN0=\"",
+      "sourceLastModified": null,
+      "collectedAt": "2026-07-17T10:22:45.010Z",
+      "verificationStatus": "official_source_collected",
+      "parserVersion": "apple-annotation-text-pair-v1",
+      "evidence": {
+        "selectedLabel": "ChatGPT Plus",
+        "selectedDisplay": "22,99 €",
+        "candidates": [
+          {
+            "label": "ChatGPT Plus",
+            "display": "22,99 €",
+            "amount": 22.99
+          },
+          {
+            "label": "ChatGPT Pro 20x",
+            "display": "229,00 €",
+            "amount": 229
+          },
+          {
+            "label": "ChatGPT Plus",
+            "display": "229,00 €",
+            "amount": 229
+          }
+        ],
+        "selectionRule": "lowest matching official product label; annual duplicate retained in evidence",
+        "fetchAttempt": 1
+      }
+    },
+    {
+      "id": "ios:fr:pro",
+      "product": "ChatGPT",
+      "plan": "pro",
+      "channel": "ios",
+      "storefront": "FR",
+      "storefrontNameZh": "法国",
+      "flag": "🇫🇷",
+      "currency": "EUR",
+      "localPrice": 229,
+      "localPriceDisplay": "229,00 €",
+      "usdEquivalent": 262.59,
+      "usdRateDate": "2026-07-16",
+      "sourceType": "official_apple_app_store_listing",
+      "sourceUrl": "https://apps.apple.com/fr/app/chatgpt/id6448311069?platform=vision",
+      "sourceSha256": "4047efe53816f60302c3d8ed0429c8dae4bca72580f90a8297fae5861b910560",
+      "sourceEtag": "\"GZQgywLSBGykBqzoaG95TyNXElUHCLkX4au5vRDMIN0=\"",
+      "sourceLastModified": null,
+      "collectedAt": "2026-07-17T10:22:45.010Z",
+      "verificationStatus": "official_source_collected",
+      "parserVersion": "apple-annotation-text-pair-v1",
+      "evidence": {
+        "selectedLabel": "ChatGPT Pro 20x",
+        "selectedDisplay": "229,00 €",
+        "candidates": [
+          {
+            "label": "ChatGPT Plus",
+            "display": "22,99 €",
+            "amount": 22.99
+          },
+          {
+            "label": "ChatGPT Pro 20x",
+            "display": "229,00 €",
+            "amount": 229
+          },
+          {
+            "label": "ChatGPT Plus",
+            "display": "229,00 €",
+            "amount": 229
+          }
+        ],
+        "selectionRule": "lowest matching official product label; annual duplicate retained in evidence",
+        "fetchAttempt": 1
+      }
+    },
+    {
+      "id": "ios:gb:plus",
+      "product": "ChatGPT",
+      "plan": "plus",
+      "channel": "ios",
+      "storefront": "GB",
+      "storefrontNameZh": "英国",
+      "flag": "🇬🇧",
+      "currency": "GBP",
+      "localPrice": 19.99,
+      "localPriceDisplay": "£19.99",
+      "usdEquivalent": 27.01,
+      "usdRateDate": "2026-07-16",
+      "sourceType": "official_apple_app_store_listing",
+      "sourceUrl": "https://apps.apple.com/gb/app/chatgpt/id6448311069?platform=vision",
+      "sourceSha256": "4751de997776b5f11a872a2e2282ab12df5b13911bdd04fb60163854fde97968",
+      "sourceEtag": "\"pIMSX+aYXXULtnL3YaG2TZgZu6GJZfGkFiToRgIHJPk=\"",
+      "sourceLastModified": null,
+      "collectedAt": "2026-07-17T10:22:45.127Z",
+      "verificationStatus": "official_source_collected",
+      "parserVersion": "apple-annotation-text-pair-v1",
+      "evidence": {
+        "selectedLabel": "ChatGPT Plus",
+        "selectedDisplay": "£19.99",
+        "candidates": [
+          {
+            "label": "ChatGPT Plus",
+            "display": "£19.99",
+            "amount": 19.99
+          },
+          {
+            "label": "ChatGPT Pro 20x",
+            "display": "£200.00",
+            "amount": 200
+          },
+          {
+            "label": "ChatGPT Plus",
+            "display": "£200.00",
+            "amount": 200
+          }
+        ],
+        "selectionRule": "lowest matching official product label; annual duplicate retained in evidence",
+        "fetchAttempt": 1
+      }
+    },
+    {
+      "id": "ios:gb:pro",
+      "product": "ChatGPT",
+      "plan": "pro",
+      "channel": "ios",
+      "storefront": "GB",
+      "storefrontNameZh": "英国",
+      "flag": "🇬🇧",
+      "currency": "GBP",
+      "localPrice": 200,
+      "localPriceDisplay": "£200.00",
+      "usdEquivalent": 270.22,
+      "usdRateDate": "2026-07-16",
+      "sourceType": "official_apple_app_store_listing",
+      "sourceUrl": "https://apps.apple.com/gb/app/chatgpt/id6448311069?platform=vision",
+      "sourceSha256": "4751de997776b5f11a872a2e2282ab12df5b13911bdd04fb60163854fde97968",
+      "sourceEtag": "\"pIMSX+aYXXULtnL3YaG2TZgZu6GJZfGkFiToRgIHJPk=\"",
+      "sourceLastModified": null,
+      "collectedAt": "2026-07-17T10:22:45.127Z",
+      "verificationStatus": "official_source_collected",
+      "parserVersion": "apple-annotation-text-pair-v1",
+      "evidence": {
+        "selectedLabel": "ChatGPT Pro 20x",
+        "selectedDisplay": "£200.00",
+        "candidates": [
+          {
+            "label": "ChatGPT Plus",
+            "display": "£19.99",
+            "amount": 19.99
+          },
+          {
+            "label": "ChatGPT Pro 20x",
+            "display": "£200.00",
+            "amount": 200
+          },
+          {
+            "label": "ChatGPT Plus",
+            "display": "£200.00",
+            "amount": 200
+          }
+        ],
+        "selectionRule": "lowest matching official product label; annual duplicate retained in evidence",
+        "fetchAttempt": 1
+      }
+    },
+    {
+      "id": "ios:dk:plus",
+      "product": "ChatGPT",
+      "plan": "plus",
+      "channel": "ios",
+      "storefront": "DK",
+      "storefrontNameZh": "丹麦",
+      "flag": "🇩🇰",
+      "currency": "DKK",
+      "localPrice": 179,
+      "localPriceDisplay": "179,00 kr",
+      "usdEquivalent": 27.46,
+      "usdRateDate": "2026-07-16",
+      "sourceType": "official_apple_app_store_listing",
+      "sourceUrl": "https://apps.apple.com/dk/app/chatgpt/id6448311069?platform=vision",
+      "sourceSha256": "fd488aa8ab816d640e43103f03964177ce75a2bd3e338936180ed61e2c54c240",
+      "sourceEtag": "\"SadDDdSTHPOpL9aq9+GffewFaE5YqnBn0Mp9j9csgoU=\"",
+      "sourceLastModified": null,
+      "collectedAt": "2026-07-17T10:22:45.243Z",
+      "verificationStatus": "official_source_collected",
+      "parserVersion": "apple-annotation-text-pair-v1",
+      "evidence": {
+        "selectedLabel": "ChatGPT Plus",
+        "selectedDisplay": "179,00 kr",
+        "candidates": [
+          {
+            "label": "ChatGPT Plus",
+            "display": "179,00 kr",
+            "amount": 179
+          },
+          {
+            "label": "ChatGPT Pro 20x",
+            "display": "1.799,00 kr",
+            "amount": 1799
+          },
+          {
+            "label": "ChatGPT Plus",
+            "display": "1.799,00 kr",
+            "amount": 1799
+          }
+        ],
+        "selectionRule": "lowest matching official product label; annual duplicate retained in evidence",
+        "fetchAttempt": 1
+      }
+    },
+    {
+      "id": "ios:dk:pro",
+      "product": "ChatGPT",
+      "plan": "pro",
+      "channel": "ios",
+      "storefront": "DK",
+      "storefrontNameZh": "丹麦",
+      "flag": "🇩🇰",
+      "currency": "DKK",
+      "localPrice": 1799,
+      "localPriceDisplay": "1.799,00 kr",
+      "usdEquivalent": 275.96,
+      "usdRateDate": "2026-07-16",
+      "sourceType": "official_apple_app_store_listing",
+      "sourceUrl": "https://apps.apple.com/dk/app/chatgpt/id6448311069?platform=vision",
+      "sourceSha256": "fd488aa8ab816d640e43103f03964177ce75a2bd3e338936180ed61e2c54c240",
+      "sourceEtag": "\"SadDDdSTHPOpL9aq9+GffewFaE5YqnBn0Mp9j9csgoU=\"",
+      "sourceLastModified": null,
+      "collectedAt": "2026-07-17T10:22:45.243Z",
+      "verificationStatus": "official_source_collected",
+      "parserVersion": "apple-annotation-text-pair-v1",
+      "evidence": {
+        "selectedLabel": "ChatGPT Pro 20x",
+        "selectedDisplay": "1.799,00 kr",
+        "candidates": [
+          {
+            "label": "ChatGPT Plus",
+            "display": "179,00 kr",
+            "amount": 179
+          },
+          {
+            "label": "ChatGPT Pro 20x",
+            "display": "1.799,00 kr",
+            "amount": 1799
+          },
+          {
+            "label": "ChatGPT Plus",
+            "display": "1.799,00 kr",
+            "amount": 1799
+          }
+        ],
+        "selectionRule": "lowest matching official product label; annual duplicate retained in evidence",
+        "fetchAttempt": 1
+      }
+    }
+  ],
+  "failures": [],
+  "quality": {
+    "accepted": true,
+    "checkedAt": "2026-07-17T10:22:49.670Z",
+    "thresholds": {
+      "minimumCoverage": 0.8,
+      "maximumPriceChangeRatio": 0.2
+    },
+    "checks": [
+      {
+        "id": "minimum_coverage",
+        "passed": true,
+        "detail": "15/15 storefronts (100%)"
+      },
+      {
+        "id": "required_baselines",
+        "passed": true,
+        "detail": "all required baselines present"
+      },
+      {
+        "id": "unique_record_ids",
+        "passed": true,
+        "detail": "all record IDs unique"
+      },
+      {
+        "id": "valid_official_records",
+        "passed": true,
+        "detail": "all records have a positive price and source URL"
+      },
+      {
+        "id": "price_change_guard",
+        "passed": true,
+        "detail": "no changes above 20%"
+      }
+    ],
+    "anomalies": []
+  },
+  "promotion": {
+    "status": "accepted",
+    "previousAcceptedAt": "2026-07-17T10:17:24.864Z"
+  }
+}

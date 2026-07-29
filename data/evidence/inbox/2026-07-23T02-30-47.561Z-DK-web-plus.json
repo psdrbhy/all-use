@@ -1,0 +1,23 @@
+{
+  "channel": "web",
+  "storefront": "DK",
+  "plan": "plus",
+  "currency": "DKK",
+  "localPrice": 179,
+  "localPriceDisplay": "kr 179",
+  "sourceUrl": "https://chatgpt.com/backend-api/checkout_pricing_config/configs/DK",
+  "sourceSha256": "a031b6e78d17d42610a67f0ae95e9ff40020dfd3a51fec7bc4cdca86f0057cd5",
+  "capturedAt": "2026-07-23T02:30:47.561Z",
+  "observedRegion": "DK",
+  "captureType": "checkout_pricing_config",
+  "evidenceScope": "regional_checkout",
+  "evidence": {
+    "planText": "ChatGPT Plus",
+    "priceText": "kr 179",
+    "regionSignal": "official checkout config country_code=DK",
+    "endpointCountry": "DK",
+    "priceInterval": "month",
+    "taxBehavior": "inclusive",
+    "collectorVersion": "chatgpt-checkout-config-v1"
+  }
+}

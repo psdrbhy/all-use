@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "policy": {
+    "maximumPriceChangeRatio": 0.2,
+    "maximumCheckoutAgeHours": 336,
+    "notes": [
+      "Regional prices are published only from official checkout or billing-dialog evidence.",
+      "Official help articles may provide USD reference prices but never count as regional checkout evidence.",
+      "Cookies, account identifiers, payment details, and complete checkout HTML must not be stored."
+    ]
+  },
+  "officialUsdReferences": [
+    {
+      "channel": "web",
+      "storefront": "US",
+      "plan": "plus",
+      "currency": "USD",
+      "expectedMonthlyPrice": 20,
+      "sourceKind": "chatgpt_plus_plan"
+    },
+    {
+      "channel": "web",
+      "storefront": "US",
+      "plan": "pro",
+      "currency": "USD",
+      "expectedMonthlyPrice": 200,
+      "sourceKind": "chatgpt_pro_plan"
+    }
+  ]
+}

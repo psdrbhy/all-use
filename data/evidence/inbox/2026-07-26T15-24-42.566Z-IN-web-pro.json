@@ -1,0 +1,23 @@
+{
+  "channel": "web",
+  "storefront": "IN",
+  "plan": "pro",
+  "currency": "INR",
+  "localPrice": 19900,
+  "localPriceDisplay": "₹19,900",
+  "sourceUrl": "https://chatgpt.com/backend-api/checkout_pricing_config/configs/IN",
+  "sourceSha256": "6c2f609e820ec0d48ce25f2f2ba803ac222f103cd8732dcc5cc91701d8d18041",
+  "capturedAt": "2026-07-26T15:24:42.566Z",
+  "observedRegion": "IN",
+  "captureType": "checkout_pricing_config",
+  "evidenceScope": "regional_checkout",
+  "evidence": {
+    "planText": "ChatGPT Pro 20x",
+    "priceText": "₹19,900",
+    "regionSignal": "official checkout config country_code=IN",
+    "endpointCountry": "IN",
+    "priceInterval": "month",
+    "taxBehavior": "inclusive",
+    "collectorVersion": "chatgpt-checkout-config-v1"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "storefront": "DK",
+  "channel": "web",
+  "status": "exact_prices_detected",
+  "capturedAt": "2026-07-17T11:51:42.542Z",
+  "endpoint": "https://chatgpt.com/backend-api/checkout_pricing_config/configs/DK",
+  "currency": "DKK",
+  "sourceSha256": "2fc587c16c1be10bed6c7bba97e6fadc02c1d535fb9e52162f85987bd987cba2",
+  "records": [
+    {
+      "channel": "web",
+      "storefront": "DK",
+      "plan": "plus",
+      "currency": "DKK",
+      "localPrice": 179,
+      "localPriceDisplay": "kr 179",
+      "sourceUrl": "https://chatgpt.com/backend-api/checkout_pricing_config/configs/DK",
+      "sourceSha256": "2fc587c16c1be10bed6c7bba97e6fadc02c1d535fb9e52162f85987bd987cba2",
+      "capturedAt": "2026-07-17T11:51:42.542Z",
+      "observedRegion": "DK",
+      "captureType": "checkout_pricing_config",
+      "evidenceScope": "regional_checkout",
+      "evidence": {
+        "planText": "ChatGPT Plus",
+        "priceText": "kr 179",
+        "regionSignal": "official checkout config country_code=DK",
+        "endpointCountry": "DK",
+        "priceInterval": "month",
+        "taxBehavior": "inclusive",
+        "collectorVersion": "chatgpt-checkout-config-v1"
+      }
+    },
+    {
+      "channel": "web",
+      "storefront": "DK",
+      "plan": "pro",
+      "currency": "DKK",
+      "localPrice": 1799,
+      "localPriceDisplay": "kr 1,799",
+      "sourceUrl": "https://chatgpt.com/backend-api/checkout_pricing_config/configs/DK",
+      "sourceSha256": "2fc587c16c1be10bed6c7bba97e6fadc02c1d535fb9e52162f85987bd987cba2",
+      "capturedAt": "2026-07-17T11:51:42.542Z",
+      "observedRegion": "DK",
+      "captureType": "checkout_pricing_config",
+      "evidenceScope": "regional_checkout",
+      "evidence": {
+        "planText": "ChatGPT Pro 20x",
+        "priceText": "kr 1,799",
+        "regionSignal": "official checkout config country_code=DK",
+        "endpointCountry": "DK",
+        "priceInterval": "month",
+        "taxBehavior": "inclusive",
+        "collectorVersion": "chatgpt-checkout-config-v1"
+      }
+    }
+  ]
+}

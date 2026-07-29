@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "lastRunAt": "2026-07-20T08:03:06.960Z",
+  "lastRunStatus": "accepted",
+  "lastRunArtifact": "data/runs/2026-07-20T08-02-55.933Z.json",
+  "lastAcceptedAt": "2026-07-20T08:03:06.960Z",
+  "servingLastKnownGood": false,
+  "quality": {
+    "accepted": true,
+    "checkedAt": "2026-07-20T08:03:06.961Z",
+    "thresholds": {
+      "minimumCoverage": 0.8,
+      "maximumPriceChangeRatio": 0.2,
+      "minimumSupportedWebCurrencies": 60,
+      "minimumAndroidRangeCoverage": 0.7
+    },
+    "checks": [
+      {
+        "id": "minimum_coverage",
+        "passed": true,
+        "detail": "17/17 storefronts (100%)"
+      },
+      {
+        "id": "required_baselines",
+        "passed": true,
+        "detail": "all required baselines present"
+      },
+      {
+        "id": "unique_record_ids",
+        "passed": true,
+        "detail": "all record IDs unique"
+      },
+      {
+        "id": "valid_official_records",
+        "passed": true,
+        "detail": "all records have a positive price and source URL"
+      },
+      {
+        "id": "price_change_guard",
+        "passed": true,
+        "detail": "no changes above 20%"
+      },
+      {
+        "id": "web_currency_reference",
+        "passed": true,
+        "detail": "68 official web billing currencies found"
+      },
+      {
+        "id": "android_range_coverage",
+        "passed": true,
+        "detail": "12/17 official Google Play ranges (71%)"
+      }
+    ],
+    "anomalies": []
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "US": {
+    "proxy": "http://username:password@us-host.example:10001",
+    "attestedRegion": "US"
+  },
+  "JP": {
+    "proxy": "http://username:password@jp-host.example:10002",
+    "attestedRegion": "JP"
+  },
+  "PH": {
+    "proxy": "http://username:password@ph-host.example:10003",
+    "attestedRegion": "PH"
+  },
+  "TR": {
+    "proxy": "http://username:password@tr-host.example:10004",
+    "attestedRegion": "TR"
+  },
+  "IN": {
+    "proxy": "http://username:password@in-host.example:10005",
+    "attestedRegion": "IN"
+  },
+  "BR": {
+    "proxy": "http://username:password@br-host.example:10006",
+    "attestedRegion": "BR"
+  }
+}

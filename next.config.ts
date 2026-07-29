@@ -1,7 +1,11 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  turbopack: {
+    // Keep Next.js inside this project instead of discovering the parent
+    // workspace, which also contains unrelated Cloudflare Worker sources.
+    root: process.cwd(),
+  },
 };
 
 export default nextConfig;

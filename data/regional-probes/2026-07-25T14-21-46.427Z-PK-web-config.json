@@ -1,0 +1,8 @@
+{
+  "storefront": "PK",
+  "channel": "web",
+  "status": "failed",
+  "capturedAt": "2026-07-25T14:21:46.427Z",
+  "records": [],
+  "error": "page.evaluate: Target page, context or browser has been closed"
+}

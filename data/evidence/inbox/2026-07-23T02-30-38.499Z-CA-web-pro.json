@@ -1,0 +1,23 @@
+{
+  "channel": "web",
+  "storefront": "CA",
+  "plan": "pro",
+  "currency": "CAD",
+  "localPrice": 250,
+  "localPriceDisplay": "$250",
+  "sourceUrl": "https://chatgpt.com/backend-api/checkout_pricing_config/configs/CA",
+  "sourceSha256": "0c2b6f08f7061f014394e4353310d82e5ce0f9736e553dab10bdfba9eb85267e",
+  "capturedAt": "2026-07-23T02:30:38.499Z",
+  "observedRegion": "CA",
+  "captureType": "checkout_pricing_config",
+  "evidenceScope": "regional_checkout",
+  "evidence": {
+    "planText": "ChatGPT Pro 20x",
+    "priceText": "$250",
+    "regionSignal": "official checkout config country_code=CA",
+    "endpointCountry": "CA",
+    "priceInterval": "month",
+    "taxBehavior": "exclusive",
+    "collectorVersion": "chatgpt-checkout-config-v1"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "storefront": "PH",
+  "channel": "web",
+  "status": "failed",
+  "capturedAt": "2026-07-17T11:50:16.321Z",
+  "records": [],
+  "error": "official pricing endpoint returned HTTP 403: <html>\n  <head>\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n    <style global>body{font-family:Arial,Helvetica,sans-serif}.container{align-items:center;display:flex;flex-direction:column;gap:2rem;height:100%;justify-content:center;width:100%}@keyframes enlarge-appear{0"
+}

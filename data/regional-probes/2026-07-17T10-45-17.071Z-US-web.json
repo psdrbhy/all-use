@@ -1,0 +1,13 @@
+{
+  "storefront": "US",
+  "channel": "web",
+  "status": "no_exact_prices",
+  "capturedAt": "2026-07-17T10:45:17.071Z",
+  "finalUrl": "https://chatgpt.com/pricing/",
+  "sourceSha256": "182d1a60b75dc7463450ba166625ce8b1c123dfb6d213d414b4b55634b2a06d0",
+  "fetchAttempt": 2,
+  "attestedRegion": null,
+  "candidates": [],
+  "records": [],
+  "limitation": "Direct or unattested egress is diagnostic only and cannot publish regional prices."
+}

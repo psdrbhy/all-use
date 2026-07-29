@@ -1,0 +1,8 @@
+{
+  "storefront": "TR",
+  "channel": "web",
+  "status": "failed",
+  "capturedAt": "2026-07-17T11:51:39.555Z",
+  "records": [],
+  "error": "checkout pricing currency mismatch: expected TRY, received USD"
+}

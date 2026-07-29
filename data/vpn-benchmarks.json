@@ -1,0 +1,22 @@
+{
+  "generatedAt": "2026-07-11T00:00:00.000Z",
+  "measurementWindow": "最近 7 天日均值",
+  "location": "日本东京",
+  "sourceUrl": "https://opentherank.com/vpn/",
+  "methodUrl": "https://github.com/hmy0210/vpn-stability-ranking",
+  "notice": "所有结果均来自东京固定节点，实际表现会随地区、网络、时间和封锁环境变化。",
+  "records": [
+    { "id":"nordvpn", "name":"NordVPN", "short":"Nord", "jurisdiction":"巴拿马", "download":438.8, "upload":320.7, "ping":8.1, "stability":93.0, "reliability":98, "servers":"7,100+", "accent":"#3f63d8" },
+    { "id":"expressvpn", "name":"ExpressVPN", "short":"Express", "jurisdiction":"英属维尔京群岛", "download":407.5, "upload":311.5, "ping":12.1, "stability":93.3, "reliability":97, "servers":"3,000+", "accent":"#d9534f" },
+    { "id":"pia", "name":"Private Internet Access", "short":"PIA", "jurisdiction":"美国", "download":346.9, "upload":220.4, "ping":16.0, "stability":92.4, "reliability":96, "servers":"35,000+", "accent":"#32a36b" },
+    { "id":"cyberghost", "name":"CyberGhost", "short":"CyberGhost", "jurisdiction":"罗马尼亚", "download":322.5, "upload":253.9, "ping":24.0, "stability":90.5, "reliability":93, "servers":null, "accent":"#f0b429" },
+    { "id":"mullvad", "name":"Mullvad", "short":"Mullvad", "jurisdiction":"瑞典", "download":319.6, "upload":230.6, "ping":18.7, "stability":91.4, "reliability":94, "servers":"550+", "accent":"#6a7f98" },
+    { "id":"surfshark", "name":"Surfshark", "short":"Surfshark", "jurisdiction":null, "download":318.0, "upload":null, "ping":null, "stability":null, "reliability":null, "servers":null, "accent":"#16a9a2" },
+    { "id":"ipvanish", "name":"IPVanish", "short":"IPVanish", "jurisdiction":null, "download":292.0, "upload":null, "ping":null, "stability":null, "reliability":null, "servers":null, "accent":"#67a046" },
+    { "id":"hotspot", "name":"Hotspot Shield", "short":"Hotspot", "jurisdiction":null, "download":280.0, "upload":null, "ping":null, "stability":null, "reliability":null, "servers":null, "accent":"#4f8bbf" },
+    { "id":"protonvpn", "name":"ProtonVPN", "short":"Proton", "jurisdiction":null, "download":270.0, "upload":null, "ping":null, "stability":null, "reliability":null, "servers":null, "accent":"#6f55c8" },
+    { "id":"windscribe", "name":"Windscribe", "short":"Windscribe", "jurisdiction":null, "download":260.0, "upload":null, "ping":null, "stability":null, "reliability":null, "servers":null, "accent":"#42a7bb" },
+    { "id":"hidemyass", "name":"HideMyAss", "short":"HMA", "jurisdiction":null, "download":207.0, "upload":null, "ping":null, "stability":null, "reliability":null, "servers":null, "accent":"#d86d54" },
+    { "id":"tunnelbear", "name":"TunnelBear", "short":"TunnelBear", "jurisdiction":null, "download":193.0, "upload":null, "ping":null, "stability":null, "reliability":null, "servers":null, "accent":"#b47b45" }
+  ]
+}

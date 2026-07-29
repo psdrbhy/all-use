@@ -1,0 +1,23 @@
+{
+  "channel": "web",
+  "storefront": "AR",
+  "plan": "plus",
+  "currency": "USD",
+  "localPrice": 20,
+  "localPriceDisplay": "$20",
+  "sourceUrl": "https://chatgpt.com/backend-api/checkout_pricing_config/configs/AR",
+  "sourceSha256": "49f81dc636daabe1c60fcc2f057a589a7dcd5cae1939e495da627798443e9d4e",
+  "capturedAt": "2026-07-23T02:30:40.776Z",
+  "observedRegion": "AR",
+  "captureType": "checkout_pricing_config",
+  "evidenceScope": "regional_checkout",
+  "evidence": {
+    "planText": "ChatGPT Plus",
+    "priceText": "$20",
+    "regionSignal": "official checkout config country_code=AR",
+    "endpointCountry": "AR",
+    "priceInterval": "month",
+    "taxBehavior": "exclusive",
+    "collectorVersion": "chatgpt-checkout-config-v1"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "channel": "web",
+  "storefront": "KR",
+  "plan": "pro",
+  "currency": "KRW",
+  "localPrice": 299000,
+  "localPriceDisplay": "₩299,000",
+  "sourceUrl": "https://chatgpt.com/backend-api/checkout_pricing_config/configs/KR",
+  "sourceSha256": "9d3393215b1d3e02cd988ee0bea88ec647bd6ce5ac728af37d305cfd9e3a075e",
+  "capturedAt": "2026-07-27T01:02:40.488Z",
+  "observedRegion": "KR",
+  "captureType": "checkout_pricing_config",
+  "evidenceScope": "regional_checkout",
+  "evidence": {
+    "planText": "ChatGPT Pro 20x",
+    "priceText": "₩299,000",
+    "regionSignal": "official checkout config country_code=KR",
+    "endpointCountry": "KR",
+    "priceInterval": "month",
+    "taxBehavior": "inclusive",
+    "collectorVersion": "chatgpt-checkout-config-v1"
+  }
+}

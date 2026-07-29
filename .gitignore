@@ -31,6 +31,12 @@ yarn-error.log*
 # env files (can opt-in for committing if needed)
 .env*
 
+# local regional proxy credentials
+/.regional-proxies.json
+
+# dedicated browser profile used by the local pricing collector
+/.cache/chatgpt-pricing-chrome/
+
 # vercel
 .vercel
 
@@ -40,3 +46,6 @@ next-env.d.ts
 /.wrangler/
 /outputs/
 /work/
+
+# separate nested project; it has its own Git repository and dependencies
+/Codex-Dream-Skin/

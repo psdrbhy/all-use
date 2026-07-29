@@ -1,0 +1,23 @@
+{
+  "channel": "web",
+  "storefront": "DK",
+  "plan": "pro",
+  "currency": "DKK",
+  "localPrice": 1799,
+  "localPriceDisplay": "kr 1,799",
+  "sourceUrl": "https://chatgpt.com/backend-api/checkout_pricing_config/configs/DK",
+  "sourceSha256": "571d7bb747b91e2aca33b109e808696bb697c4ae5023fdb3cd8f3cb8aa37d26f",
+  "capturedAt": "2026-07-26T15:24:57.846Z",
+  "observedRegion": "DK",
+  "captureType": "checkout_pricing_config",
+  "evidenceScope": "regional_checkout",
+  "evidence": {
+    "planText": "ChatGPT Pro 20x",
+    "priceText": "kr 1,799",
+    "regionSignal": "official checkout config country_code=DK",
+    "endpointCountry": "DK",
+    "priceInterval": "month",
+    "taxBehavior": "inclusive",
+    "collectorVersion": "chatgpt-checkout-config-v1"
+  }
+}

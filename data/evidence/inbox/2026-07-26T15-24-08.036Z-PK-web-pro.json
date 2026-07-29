@@ -1,0 +1,23 @@
+{
+  "channel": "web",
+  "storefront": "PK",
+  "plan": "pro",
+  "currency": "PKR",
+  "localPrice": 49900,
+  "localPriceDisplay": "Rs 49,900",
+  "sourceUrl": "https://chatgpt.com/backend-api/checkout_pricing_config/configs/PK",
+  "sourceSha256": "ba84f6ad3e2a5703f1ca47fe2ef5493edfd93d5ada0d5e7a7b99561eea4d56ee",
+  "capturedAt": "2026-07-26T15:24:08.036Z",
+  "observedRegion": "PK",
+  "captureType": "checkout_pricing_config",
+  "evidenceScope": "regional_checkout",
+  "evidence": {
+    "planText": "ChatGPT Pro 20x",
+    "priceText": "Rs 49,900",
+    "regionSignal": "official checkout config country_code=PK",
+    "endpointCountry": "PK",
+    "priceInterval": "month",
+    "taxBehavior": "exclusive",
+    "collectorVersion": "chatgpt-checkout-config-v1"
+  }
+}

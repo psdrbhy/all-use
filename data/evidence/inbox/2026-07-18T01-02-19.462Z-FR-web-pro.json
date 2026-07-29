@@ -1,0 +1,23 @@
+{
+  "channel": "web",
+  "storefront": "FR",
+  "plan": "pro",
+  "currency": "EUR",
+  "localPrice": 229,
+  "localPriceDisplay": "€229",
+  "sourceUrl": "https://chatgpt.com/backend-api/checkout_pricing_config/configs/FR",
+  "sourceSha256": "4a75ab83b3f8fd6caf253efc5391bbc953e209f180c301daa90b59118263310a",
+  "capturedAt": "2026-07-18T01:02:19.462Z",
+  "observedRegion": "FR",
+  "captureType": "checkout_pricing_config",
+  "evidenceScope": "regional_checkout",
+  "evidence": {
+    "planText": "ChatGPT Pro 20x",
+    "priceText": "€229",
+    "regionSignal": "official checkout config country_code=FR",
+    "endpointCountry": "FR",
+    "priceInterval": "month",
+    "taxBehavior": "inclusive",
+    "collectorVersion": "chatgpt-checkout-config-v1"
+  }
+}
