@@ -1990,8 +1990,8 @@
     ],
     "anomalies": []
   },
-  "provenance": {
-    "runArtifact": "data/runs/2026-08-08T03-44-57.294Z.json",
+  "promotion": {
+    "status": "accepted",
     "previousAcceptedAt": "2026-08-07T04:33:57.180Z"
   }
 }
