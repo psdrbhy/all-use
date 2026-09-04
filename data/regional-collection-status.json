@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "lastRunAt": "2026-08-10T04:09:30.212Z",
+  "lastRunAt": "2026-09-04T07:22:58.854Z",
   "lastRunStatus": "accepted",
-  "lastRunArtifact": "data/regional-runs/2026-08-10T04-09-30.152Z.json",
-  "lastAcceptedAt": "2026-08-10T04:09:30.212Z",
+  "lastRunArtifact": "data/regional-runs/2026-09-04T07-22-58.814Z.json",
+  "lastAcceptedAt": "2026-09-04T07:22:58.854Z",
   "servingLastKnownGood": false,
   "quality": {
     "accepted": true,
@@ -11,7 +11,7 @@
       {
         "id": "official_usd_reference",
         "passed": true,
-        "detail": "official US checkout config verified"
+        "detail": "1 current official USD plan references"
       },
       {
         "id": "regional_price_change_guard",
