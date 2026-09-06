@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "lastRunAt": "2026-09-04T07:22:58.854Z",
+  "lastRunAt": "2026-09-06T07:09:46.812Z",
   "lastRunStatus": "accepted",
-  "lastRunArtifact": "data/regional-runs/2026-09-04T07-22-58.814Z.json",
-  "lastAcceptedAt": "2026-09-04T07:22:58.854Z",
+  "lastRunArtifact": "data/regional-runs/2026-09-06T07-09-46.770Z.json",
+  "lastAcceptedAt": "2026-09-06T07:09:46.812Z",
   "servingLastKnownGood": false,
   "quality": {
     "accepted": true,
