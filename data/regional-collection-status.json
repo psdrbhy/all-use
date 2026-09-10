@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "lastRunAt": "2026-09-06T07:09:46.812Z",
+  "lastRunAt": "2026-09-10T07:20:46.761Z",
   "lastRunStatus": "accepted",
-  "lastRunArtifact": "data/regional-runs/2026-09-06T07-09-46.770Z.json",
-  "lastAcceptedAt": "2026-09-06T07:09:46.812Z",
+  "lastRunArtifact": "data/regional-runs/2026-09-10T07-20-46.696Z.json",
+  "lastAcceptedAt": "2026-09-10T07:20:46.761Z",
   "servingLastKnownGood": false,
   "quality": {
     "accepted": true,
@@ -11,7 +11,7 @@
       {
         "id": "official_usd_reference",
         "passed": true,
-        "detail": "1 current official USD plan references"
+        "detail": "2 current official USD plan references"
       },
       {
         "id": "regional_price_change_guard",
