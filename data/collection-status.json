@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "lastRunAt": "2026-09-12T07:11:46.078Z",
+  "lastRunAt": "2026-09-13T07:30:40.353Z",
   "lastRunStatus": "accepted",
-  "lastRunArtifact": "data/runs/2026-09-12T07-11-41.146Z.json",
-  "lastAcceptedAt": "2026-09-12T07:11:46.078Z",
+  "lastRunArtifact": "data/runs/2026-09-13T07-30-35.971Z.json",
+  "lastAcceptedAt": "2026-09-13T07:30:40.353Z",
   "servingLastKnownGood": false,
   "quality": {
     "accepted": true,
-    "checkedAt": "2026-09-12T07:11:46.078Z",
+    "checkedAt": "2026-09-13T07:30:40.353Z",
     "thresholds": {
       "minimumCoverage": 0.8,
       "maximumPriceChangeRatio": 0.2,
