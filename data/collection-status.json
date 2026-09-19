@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "lastRunAt": "2026-09-18T07:26:42.878Z",
+  "lastRunAt": "2026-09-19T07:22:25.328Z",
   "lastRunStatus": "accepted",
-  "lastRunArtifact": "data/runs/2026-09-18T07-26-38.181Z.json",
-  "lastAcceptedAt": "2026-09-18T07:26:42.878Z",
+  "lastRunArtifact": "data/runs/2026-09-19T07-22-21.593Z.json",
+  "lastAcceptedAt": "2026-09-19T07:22:25.328Z",
   "servingLastKnownGood": false,
   "quality": {
     "accepted": true,
-    "checkedAt": "2026-09-18T07:26:42.878Z",
+    "checkedAt": "2026-09-19T07:22:25.329Z",
     "thresholds": {
       "minimumCoverage": 0.8,
       "maximumPriceChangeRatio": 0.2,
@@ -43,7 +43,7 @@
       {
         "id": "web_currency_reference",
         "passed": true,
-        "detail": "68 official web billing currencies found"
+        "detail": "67 official web billing currencies found"
       },
       {
         "id": "android_range_coverage",
